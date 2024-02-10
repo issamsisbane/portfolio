@@ -1,0 +1,77 @@
+<svg
+        width="96"
+        height="96"
+        xmlns="http://www.w3.org/2000/svg"
+        stroke-miterlimit="2"
+        stroke-linejoin="round"
+        clip-rule="evenodd"
+        fill-rule="evenodd"
+    >
+        <defs>
+            <linearGradient
+                y2="1.03762"
+                x2="0.21281"
+                y1="0.07412"
+                x1="0.70116"
+                id="prefix___Linear1"
+            >
+                <stop stop-color="#114a8b" offset="0"></stop>
+                <stop stop-color="#0669bc" offset="1"></stop>
+            </linearGradient>
+            <linearGradient
+                y2="0.54864"
+                x2="0.53102"
+                y1="0.52313"
+                x1="0.61201"
+                id="prefix___Linear2"
+            >
+                <stop stop-opacity="0.3" offset="0"></stop>
+                <stop stop-opacity="0.2" offset="0.07"></stop>
+                <stop stop-opacity="0.1" offset="0.32"></stop>
+                <stop stop-opacity="0.05" offset="0.62"></stop>
+                <stop stop-opacity="0" offset="1"></stop>
+            </linearGradient>
+            <linearGradient
+                y2="0.99979"
+                x2="0.75186"
+                y1="0.046"
+                x1="0.24313"
+                id="prefix___Linear3"
+            >
+                <stop stop-color="#3ccbf4" offset="0"></stop>
+                <stop stop-color="#2892df" offset="1"></stop>
+            </linearGradient>
+        </defs>
+        <g>
+            <title>Layer 1</title>
+            <g stroke="null" id="svg_1" fill-rule="nonzero">
+                <path
+                    stroke="null"
+                    id="svg_2"
+                    transform="translate(2.076 1.626) scale(3.37462 3.37462)"
+                    fill="url(#prefix___Linear1)"
+                    d="m9.65057,1.70783l7.53889,0l-7.82611,23.23857a1.20447,1.20709 0 0 1 -1.13888,0.81934l-5.86727,0c-0.65838,0 -1.20021,-0.54282 -1.20021,-1.20264c0,-0.13074 0.02131,-0.26055 0.063,-0.38441l7.29151,-21.65133a1.20466,1.20728 0 0 1 1.13906,-0.81989l0,0.00037z"
+                ></path>
+                <path
+                    stroke="null"
+                    id="svg_3"
+                    fill="#0078d4"
+                    d="m69.92119,58.6652l-40.3456,0c-1.02417,0 -1.86712,0.84478 -1.86712,1.87136c0,0.51886 0.21569,1.01507 0.59408,1.36866l25.92416,24.24899a4.07409,4.08294 0 0 0 2.7803,1.09753l22.84442,0l-9.93024,-28.58654z"
+                ></path>
+                <path
+                    stroke="null"
+                    id="svg_4"
+                    transform="translate(2.076 1.626) scale(3.37462 3.37462)"
+                    fill="url(#prefix___Linear2)"
+                    d="m9.65057,1.70783a1.19465,1.19725 0 0 0 -1.14166,0.83531l-7.27984,21.61568a1.19651,1.19911 0 0 0 -0.07042,0.40577c0,0.65889 0.54109,1.20115 1.19873,1.20115l6.02181,0a1.28786,1.29066 0 0 0 0.9873,-0.84144l1.45167,-4.28778l5.18572,4.84731a1.22708,1.22975 0 0 0 0.77179,0.2819l6.74413,0l-2.95782,-8.471l-8.62273,0.00204l5.27745,-15.58894l-7.56613,0z"
+                ></path>
+                <path
+                    stroke="null"
+                    id="svg_5"
+                    transform="translate(2.076 1.626) scale(3.37462 3.37462)"
+                    fill="url(#prefix___Linear3)"
+                    d="m19.27969,2.52605a1.20299,1.20561 0 0 0 -1.13739,-0.81822l-8.40204,0a1.20318,1.20579 0 0 1 1.13739,0.81822l7.2917,21.65226c0.04169,0.12405 0.063,0.25386 0.063,0.38478c0,0.66 -0.54183,1.20301 -1.2004,1.20301l8.40241,0c0.65838,-0.00019 1.20003,-0.54319 1.20003,-1.20301c0,-0.13092 -0.02131,-0.26073 -0.063,-0.38478l-7.2917,-21.65226z"
+                ></path>
+            </g>
+        </g>
+    </svg>

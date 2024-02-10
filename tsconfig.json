@@ -2,14 +2,18 @@
   "extends": "astro/tsconfigs/base",
   "compilerOptions": {
     "strictNullChecks": true,
-    "baseUrl": ".",
+    "baseUrl": "C:/Users/Epulapp/Documents/Perso/Projets/Portfolio/astrofy",
     "paths": {
       "@components/*": [
         "src/components/*"
       ],
+      "@assets/*": [
+        "src/assets/*"
+      ],
       "@layouts/*": [
         "src/layouts/*"
       ]
-    }
+    },
+    "jsx": "preserve"
   }
 }
