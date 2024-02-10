@@ -8,7 +8,7 @@ const badge_url = url.split("/").slice(0, -1).join("/") + "/badge";
 <div
   class="rounded-lg bg-base-100 hover:shadow-xl transition ease-in-out hover:scale-[102%]"
 >
-  <a href={url} target={target}>
+  <a href={url}>
     <div class="hero-content flex-col md:flex-row">
       {
         img && (
@@ -29,7 +29,7 @@ const badge_url = url.split("/").slice(0, -1).join("/") + "/badge";
             {badge && <div class="badge badge-secondary mx-2">{badge}</div>}
           </a>
         </h1>
-        <p class="py-1 text-1xl">{desc}</p>
+        <p class="py-1 text-1xl text-justify">{desc}</p>
         <div class="card-actions justify-end">
           {
             tags &&

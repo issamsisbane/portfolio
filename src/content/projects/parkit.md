@@ -1,6 +1,6 @@
 ---
 title: "Park IT !"
-description: "Connected parking projects."
+description: "The Park It! project is an innovative IoT solution aimed at simplifying parking. With smart sensors and a user-friendly application, it provides an optimized parking experience."
 pubDate: "Jan 24 2024"
 heroImage: "/portfolio/parkit_img.webp"
 badge: "School"
