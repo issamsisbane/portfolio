@@ -29,7 +29,7 @@ export async function getStaticPaths({ paginate }) {
     ) : (
       <ul>
         {page.data
-          .filter((project) => project.lang == lang)
+          .filter((project) => project.data.lang == lang)
           .map((project) => (
             <>
               <HorizontalCard

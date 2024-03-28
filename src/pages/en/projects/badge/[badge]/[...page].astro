@@ -41,7 +41,7 @@ const params = Astro.params;
     ) : (
       <ul>
         {page.data
-          .filter((project) => project.id.split("/")[0] == lang)
+          .filter((project) => project.data.lang == lang)
           .map((project) => (
             <>
               <HorizontalCard
