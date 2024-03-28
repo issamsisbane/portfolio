@@ -38,7 +38,7 @@ Frontend :
 * `Typescript`
 
 ## Architecture
-![clippy-architecture](/clippy-architecture.webp)
+![clippy-architecture](/portfolio/clippy-architecture.webp)
 
 
 ## Résultats

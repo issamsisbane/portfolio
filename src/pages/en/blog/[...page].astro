@@ -6,7 +6,7 @@ import createSlug from "../../../lib/createSlug";
 
 const { page } = Astro.props;
 const url = Astro.url.pathname;
-const lang = url.toString().split("/")[1];
+const lang = url.toString().split("/")[2];
 
 export async function getStaticPaths({ paginate }) {
   const posts = await getCollection("blog");

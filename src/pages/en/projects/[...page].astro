@@ -6,7 +6,7 @@ import createSlug from "../../../lib/createSlug";
 
 const { page } = Astro.props;
 const url = Astro.url.pathname;
-const lang = url.toString().split("/")[1];
+const lang = url.toString().split("/")[2];
 
 export async function getStaticPaths({ paginate }) {
   const projects = await getCollection("projects");
@@ -29,7 +29,7 @@ export async function getStaticPaths({ paginate }) {
     ) : (
       <ul>
         {page.data
-          .filter((project) => project.id.split("/")[0] == lang)
+          .filter((project) => project.lang == lang)
           .map((project) => (
             <>
               <HorizontalCard
