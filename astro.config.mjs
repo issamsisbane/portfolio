@@ -7,5 +7,12 @@ import tailwind from "@astrojs/tailwind";
 export default defineConfig({
   site: 'https://IssamSisbane.github.io',
   base: '/portfolio',
-  integrations: [mdx(), sitemap(), tailwind()]
+  integrations: [mdx(), sitemap(), tailwind()],
+  i18n: {
+    defaultLocale: "fr",
+    locales: ["en", "fr"],
+    routing: {
+      prefixDefaultLocale: true
+    }
+  }
 });

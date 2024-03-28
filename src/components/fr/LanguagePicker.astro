@@ -1,0 +1,33 @@
+---
+
+---
+
+<div class="flex justify-center">
+    <select
+        id="languageSelect"
+        class="select select-bordered select-sm w-1/2 max-w-xs"
+    >
+        <option disabled selected>Choisir la langue</option>
+        <option value="en">English</option>
+        <option value="fr">Français</option>
+    </select>
+</div>
+
+<script>
+    // Find the select element on the page.
+    const select = document.querySelector("#languageSelect");
+
+    const currentLang = window.location.pathname.split("/")[2];
+    // Set the value of the select element to the current language.
+    select.value = currentLang;
+    console.log(window.location.href);
+
+    // Handle changes on the select element.
+    select.addEventListener("change", (event) => {
+        const lang = event.target.value;
+        // const urlSegments = window.location.pathname.split("/");
+        // urlSegments[1] = lang; // Replace the language segment of the URL
+        // const newUrl = urlSegments.join("/");
+        window.location.pathname = `/portfolio/${lang}`;
+    });
+</script>

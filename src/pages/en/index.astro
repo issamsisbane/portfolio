@@ -1,12 +1,12 @@
 ---
-import BaseLayout from "../layouts/fr/BaseLayout.astro";
-import HorizontalCard from "../components/fr/HorizontalCard.astro";
-import Education from "../components/fr/Education.astro";
-import Certifications from "../components/fr/Certifications.astro";
-import Experience from "../components/fr/Experience.astro";
-import TechStack from "../components/fr/TechStack.astro";
+import BaseLayout from "../../layouts/en/BaseLayout.astro";
+import HorizontalCard from "../../components/en/HorizontalCard.astro";
+import Education from "../../components/en/Education.astro";
+import Certifications from "../../components/en/Certifications.astro";
+import Experience from "../../components/en/Experience.astro";
+import TechStack from "../../components/en/TechStack.astro";
 import { getCollection } from "astro:content";
-import createSlug from "../lib/createSlug";
+import createSlug from "../../lib/createSlug";
 
 const posts = (await getCollection("blog")).sort(
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
@@ -15,7 +15,7 @@ const posts = (await getCollection("blog")).sort(
 const last_posts = posts.slice(0, 3);
 ---
 
-<BaseLayout sideBarActiveItemID="home">
+<BaseLayout sideBarActiveItemID="home" title={"Home"}>
   <div class="pb-12 mt-5">
     <div class="text-xl py-1">Hey there <p class="wave">👋</p></div>
     <div class="text-5xl font-bold">I'm Issam SISBANE</div>
@@ -36,7 +36,7 @@ const last_posts = posts.slice(0, 3);
       </text>
     </div>
     <div class="mt-8">
-      <a class="btn" href="https://twitter.com/manuelernestog" target="_blank">
+      <a class="btn" href="mailto:issam.sisbane@gmail.com" target="_blank">
         Let's connect!</a
       >
       <a
@@ -66,18 +66,18 @@ const last_posts = posts.slice(0, 3);
   </div>
 
   <HorizontalCard
-    title="Event Driven Image Upload"
-    img="/portfolio/post_img.webp"
-    desc="A cloud-based image upload service that uses event-driven architecture."
-    url="#"
-    badge="NEW"
+    title="Clippy"
+    img="/portfolio/clippy.jpg"
+    desc="A web platform allowing for the ephemeral sharing of information, following the model of Pastebin."
+    url="/portfolio/en/projects/clippy"
+    badge="PERSONAL"
   />
   <div class="divider my-0"></div>
   <HorizontalCard
     title="Technology Watch "
     img="/portfolio/technology_watch_img.webp"
     desc="A state of art of health data analysis and a machine learning basics introduction."
-    url="/portfolio/projects/technology-watch"
+    url="/portfolio/en/projects/technology-watch"
     badge="SCHOOL & WORK"
   />
   <div class="divider my-0"></div>
@@ -85,10 +85,15 @@ const last_posts = posts.slice(0, 3);
     title="Park IT !"
     img="/portfolio/parkit_img.webp"
     desc="An innovative IoT solution aimed at simplifying parking. With smart sensors and a user-friendly application, it provides an optimized parking experience."
-    url="/portfolio/projects/park-it"
+    url="/portfolio/en/projects/park-it"
     badge="SCHOOL"
   />
-
+  <div class="divider my-0"></div>
+  <div class="flex justify-end">
+    <a href="/portfolio/en/projects"
+      ><button class="btn btn-outline btn-sm">Other projects ...</button></a
+    >
+  </div>
   <br />
   <Experience />
 
@@ -101,18 +106,20 @@ const last_posts = posts.slice(0, 3);
   </div>
 
   {
-    last_posts.map((post) => (
-      <>
-        <HorizontalCard
-          title={post.data.title}
-          img={post.data.heroImage}
-          desc={post.data.description}
-          url={"/blog/" + createSlug(post.data.title, post.slug)}
-          target="_self"
-          badge={post.data.badge}
-        />
-        <div class="divider my-0" />
-      </>
-    ))
+    last_posts
+      .filter((post) => post.data.lang == "en")
+      .map((post) => (
+        <>
+          <HorizontalCard
+            title={post.data.title}
+            img={post.data.heroImage}
+            desc={post.data.description}
+            url={"/blog/" + createSlug(post.data.title, post.slug)}
+            target="_self"
+            badge={post.data.badge}
+          />
+          <div class="divider my-0" />
+        </>
+      ))
   }
 </BaseLayout>
