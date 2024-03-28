@@ -7,20 +7,20 @@ import createSlug from "../../../lib/createSlug";
 export async function getStaticPaths() {
   const postEntries = await getCollection("blog");
 
-  return postEntries.map((page) => {
-    const [lang, ...slug] = page.slug.split("/");
-    return {
-      params: {
-        lang,
-        slug: createSlug(page.data.title, page.slug) || undefined,
-      },
-      props: page,
-    };
-  });
-  // return postEntries.map((entry) => ({
-  //   params: { slug: createSlug(entry.data.title, entry.slug) },
-  //   props: { entry },
-  // }));
+  // return postEntries.map((page) => {
+  //   const [lang, ...slug] = page.slug.split("/");
+  //   return {
+  //     params: {
+  //       lang,
+  //       slug: createSlug(page.data.title, page.slug) || undefined,
+  //     },
+  //     props: page,
+  //   };
+  // });
+  return postEntries.map((entry) => ({
+    params: { slug: createSlug(entry.data.title, entry.slug) },
+    props: { entry },
+  }));
 }
 
 interface Props {
