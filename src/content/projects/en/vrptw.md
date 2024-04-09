@@ -13,13 +13,13 @@ tags: ["ML", "Jupyter", "Python", "Notebook"]
 - [The project](https://github.com/IssamSisbane/discrete-optimization-vrp)
 - [The report](https://drive.google.com/file/d/1tf8WzGdUhnmjJWT3ZLaJJHhVEljZy7qP/view?usp=sharing)
 
-## Objectives
+## **Objectives**
 
 The Vehicle Routing Problem (VRP) is a complex challenge that arises in many domains requiring optimal management of logistic and transportation resources. It is an optimization problem aimed at determining the most efficient routes for a set of vehicles to serve a set of customers with specific constraints.
 
 The goal of this project was therefore to solve this problem using different metaheuristics to obtain the best results.
 
-## Technologies Used
+## **Technologies Used**
 
 - **Programming Languages**: Java
 - **Metaheuristic Algorithms**: 
@@ -27,7 +27,7 @@ The goal of this project was therefore to solve this problem using different met
     * Simulated Annealing
     * Gradient Descent
 
-## Work Done
+## **Work Done**
 
 To solve this problem, a code was developed. The code first allows creating random delivery routes and then displaying them via a graphical interface. 
 
@@ -35,7 +35,7 @@ Then, different classes with different strategies and metaheuristics were implem
 
 Finally, a large number of tests were carried out in different conditions and with different metaheuristics to determine the best one (see the report for more details).
 
-## Conclusion
+## **Conclusion**
 
 This project allowed me to learn more about solving complex optimization problems. One can think of the knapsack problem or the traveling salesman problem.
 

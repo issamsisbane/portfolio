@@ -16,7 +16,7 @@ tags: ["ML", "Jupyter", "Python", "Notebook"]
 
 The objective of this project was to familiarize myself with different Machine Learning techniques such as supervised learning and semi-supervised learning.
 
-## Works
+## **Works**
 * **Workshop_1** : A task using supervised learning.
 * **Workshop_2** : A task using neural networks and semi-supervised learning.
 
