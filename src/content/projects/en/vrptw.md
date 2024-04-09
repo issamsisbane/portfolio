@@ -2,7 +2,7 @@
 title: "Discrete Optimization VRPTW"
 description: "This project presents an approach to solving the Vehicle Routing Problem (VRP) using various metaheuristics. It explores the creation of efficient delivery routes to serve customers while respecting specific constraints, implementing algorithms such as Tabu Search, Simulated Annealing, and Gradient Descent."
 lang: "en"
-pubDate: "April 9, 2024"
+pubDate: "Apr 9 2024"
 heroImage: "/portfolio/vrp.png"
 badge: "PERSONAL"
 tags: ["ML", "Jupyter", "Python", "Notebook"]
