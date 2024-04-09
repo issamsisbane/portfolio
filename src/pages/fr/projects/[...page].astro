@@ -52,7 +52,7 @@ export async function getStaticPaths({ paginate }) {
   <div class="flex justify-between">
     {
       page.url.prev ? (
-        <a href={page.url.prev} class="btn btn-ghost my-10 mx-5">
+        <a href={"/portfolio"+page.url.prev} class="btn btn-ghost my-10 mx-5">
           {" "}
           <svg
             class="h-6 w-6 fill-current md:h-8 md:w-8"
@@ -71,7 +71,7 @@ export async function getStaticPaths({ paginate }) {
     }
     {
       page.url.next ? (
-        <a href={page.url.next} class="btn btn-ghost my-10 mx-5">
+        <a href={"/portfolio"+page.url.next} class="btn btn-ghost my-10 mx-5">
           Older projects{" "}
           <svg
             class="h-6 w-6 fill-current md:h-8 md:w-8"

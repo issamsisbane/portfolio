@@ -3,7 +3,7 @@ title: "Mawaqit Discord Notify"
 description: "Un bot discord permettant d'envoyé des notifications à des heures précises de la journée récupérées à l'aide du scraping d'un siteweb."
 lang: "fr"
 pubDate: "Apr 8 2024"
-heroImage: "/portfolio/mawaqit.jpg"
+heroImage: "/portfolio/mawaqit.webp"
 badge: "PERSONNEL"
 tags: ["Cloud", "Azure", "Cron", "Docker", "Javascript", "Scraping"]
 ---
