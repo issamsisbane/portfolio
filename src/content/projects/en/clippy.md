@@ -13,6 +13,8 @@ The project is available via GitHub:
 * [Front-end](https://github.com/IssamSisbane/clippy-frontend)
 * [Back-end](https://github.com/IssamSisbane/clippy-backend)
 
+[The hosted version](https://clippy.snzprojects.tech/)
+
 ## Need
 This project was conducted during my free time for my personal needs. I often found myself in need of a platform to quickly and easily copy and paste information between two devices. When using two devices that belong to me, such as my phone and PC, I would use a private Discord server as a clipboard. However, sometimes one of the devices did not belong to me, so I could not use this method. There are alternatives on the market in the form of websites, but the generated URLs are quite cumbersome and impractical to manually copy and paste into a browser.
 

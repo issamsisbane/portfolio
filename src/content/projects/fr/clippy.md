@@ -13,6 +13,8 @@ Le projet est disponible via github :
 * [Front-end](https://github.com/IssamSisbane/clippy-frontend)
 * [Back-end](https://github.com/IssamSisbane/clippy-backend)
 
+[La version hebergée](https://clippy.snzprojects.tech/)
+
 ## Besoin
 Ce projet a été mené durant mon temps libre pour mes propres besoins. Il m'arrivait d'avoir besoin d'un plateforme pour copier coller simplement et rapidement des informations entre deux appareils. Lorsque j'utilise deux appareils qui m'appartienent comme mon téléphone et mon pc je passe par un serveur privée discord qui me sert de presse-papiers. Seulement, parfois un des deux appareils ne m'appartenait pas et je ne pouvais donc utiliser cette méthode. Il existe des alternatives sur le marché sous la forme de siteweb cependant les url généré pour sont assez indigeste et peu pratique a copier coller a la main sur un navigateur.
 
