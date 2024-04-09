@@ -31,6 +31,6 @@ L'objectif de ce projet était de me familiariser avec les différentes techniqu
 
 J'ai beaucoup appris avec ces ateliers. J'ai pu découvrir comment rendre des modèles plus performants que ce soit en choississant un modèle approprié mais aussi en trouvant les paramètres adaptés au dataset. 
 
-De plus, j'ai pu voir que pour faire apprendre une modèle toutes les données ne sont pas forcément nécessaire et que certaines viennent même bruiter l'apprentissage ainsi il faut les seléctionné avce soin. 
+De plus, j'ai pu voir que pour faire apprendre un modèle toutes les données ne sont pas forcément nécessaire et que certaines viennent même bruiter l'apprentissage ainsi il faut les seléctionné avce soin. 
 
 Finalement, j'ai appris qu'avant de faire tout cela il fallait connaître son dataset et nettoyer les données afin de rendre l'apprentissage qui va suivre le plus pertinent possible.
