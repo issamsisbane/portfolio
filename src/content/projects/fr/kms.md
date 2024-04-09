@@ -7,7 +7,10 @@ heroImage: "/portfolio/kms.png"
 badge: "SCOLAIRE"
 tags: ["Recherche", "IoT", "Cryptographie", "Cloud", "Python", "Jupyter"]
 ---
+
+## Liens
 Vous pouvez trouver le pdf regroupant toute mes recherhces [ici.](https://drive.google.com/file/d/1UkKAquoLUDmB5lMYlOXcaKfMmTrNvRhJ/view?usp=sharing)
+Le code utilisé peut être trouvé [ici.](https://github.com/IssamSisbane/kms)
 
 ## Description
 Ce projet a été mené dans le cadre de mes études en école d'ingénieur. Il visait à sécuriser les données cloud et IoT tout en préservant leur confidentialité, en concevant une solution KMS.
