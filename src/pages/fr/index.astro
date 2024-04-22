@@ -12,8 +12,6 @@ const posts = (await getCollection("blog")).sort(
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
 );
 
-console.log(posts);
-
 const last_posts = posts.slice(0, 3);
 ---
 
@@ -128,4 +126,10 @@ const last_posts = posts.slice(0, 3);
         </>
       ))
   }
+  <div class="divider my-0"></div>
+  <div class="flex justify-end">
+    <a href="/portfolio/fr/blog"
+      ><button class="btn btn-outline btn-sm">Autres posts...</button></a
+    >
+  </div>
 </BaseLayout>
