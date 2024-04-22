@@ -12,7 +12,7 @@ Récemment, j'ai dû travailler dans un nouvel environnement de travail, notamme
 
 En essayant de push les dernières modifications ajoutées à l'un de mes projets sur mon GitHub, une erreur s'est produite :
 
-![Erreur SSH](git_ssh_error/git_ssh_error_0.png)
+![Erreur SSH](/portfolio/blog/git_ssh_error/git_ssh_error_0.png)
 
 C'était la première fois que je rencontrais cette erreur, et après quelques recherches en ligne, j'ai conclu que le port SSH (22) était bloqué dans cette configuration réseau, m'empêchant de communiquer avec GitHub via SSH.
 
@@ -22,14 +22,14 @@ Une autre solution consiste à revenir à HTTPS plutôt que d'utiliser SSH.
 
 ### 1 - Récupérer le lien HTTPS depuis GitHub :
 
-![Lien HTTPS](git_ssh_error/git_ssh_error_1.png)
+![Lien HTTPS](/portfolio/blog/git_ssh_error/git_ssh_error_1.png)
 
 ### 2 - Modifier l'origine de notre dépôt Git :
 
-![Modifier l'origine](git_ssh_error/git_ssh_error_2.png)
+![Modifier l'origine](/portfolio/blog/git_ssh_error/git_ssh_error_2.png)
 
 ### 3 - Se connecter à GitHub
 
-![Se connecter à GitHub](git_ssh_error/git_ssh_error_3.png)
+![Se connecter à GitHub](/portfolio/blog/git_ssh_error/git_ssh_error_3.png)
 
 Connectez-vous simplement à GitHub, et maintenant vous pouvez pousser sans aucun problème !
