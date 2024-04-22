@@ -49,6 +49,8 @@ The project is functional, but there is still room for improvement. Indeed, it w
 
 Furthermore, the interface can still be greatly improved, especially in terms of responsiveness.
 
+Finally, We could add some tests.
+
 ## **Conclusion**
 I enjoyed this project because I was able to work with technologies that I particularly enjoy. Additionally, I was able to utilize many skills that I have acquired within the same project.
 

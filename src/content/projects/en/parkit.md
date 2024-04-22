@@ -59,6 +59,8 @@ Secondly, an administrator's intervention is required to set up the parking, whi
 
 We also added a statistics system, but a specific interface for parking owners would have been preferable, offering customizable graphs for entries, reservations, and parking space occupancy.
 
+Finally, We could add some tests.
+
 
 ## **Conclusion**
 

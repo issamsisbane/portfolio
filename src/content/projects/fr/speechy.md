@@ -64,6 +64,7 @@ Le projet est actuellement fonctionnel mais il peut encore être amélioré. En 
     * Vérifier les fichiers ajoutés et leur format avant de les envoyer à OpenAI.
     * Améliorer les sorties d'erreur.
     * Ajouter un chronomètre qui permet de connaître la durée de l'enregistrement.
+    * Ajout de tests
     
 * **Architecture :**
     * Ajouter une base de données pour garder une trace des dernières transcriptions.

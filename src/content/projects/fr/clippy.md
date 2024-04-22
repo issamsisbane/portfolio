@@ -50,6 +50,8 @@ Ayant une certaine expérience avec les technologies d'Azure et javascript ce pr
 Le projet est fonctionnel mais il pourrait encore être amélioré. En effet, il faudrait mettre en place une sécurité plus robuste pour les fichiers, ajouter une vérification pour être sûr qu'il sont de taille acceptable et surtout sans risques. 
 
 De plus, l'interface peu encore être vraiment amélioré notamment le coté responsive.
+
+Finalement, il faudrait ajouter des tests.
  
 ## **Conclusion**
 J'ai bien aimé ce projet car j'ai pu travailler avec technologies que j'aime tout particuilièrement. Enfin, j'ai pu mobiliser de nombreuses compétences que j'ai acquises au sein du même projet.

@@ -64,6 +64,7 @@ The project is currently functional but it can still be improved. Indeed, it wou
     * Check the added files and their format before sending them to OpenAI.
     * Improve error outputs.
     * Add a timer to know the duration of the recording.
+    * Add Tests
     
 * **Architecture:**
     * Add a database to keep track of the latest transcriptions.

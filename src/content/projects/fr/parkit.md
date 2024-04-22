@@ -60,6 +60,8 @@ Deuxièmement, l'intervention d'un administrateur est nécessaire pour configure
 
 Nous avons également ajouté un système de statistiques, mais une interface spécifique pour les propriétaires du parking aurait été préférable, offrant des graphiques personnalisables pour les entrées, les réservations, et l'occupation des places.
 
+Enfin, il faudrait ajouter des tests au code.
+
 
 ## **Conclusion**
 
