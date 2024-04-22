@@ -1,7 +1,7 @@
 ---
 title: "Speechy"
 description: "Le projet Speechy permet d'enregistrer la voix et de faire une transcription de ce qui a été dit ainsi qu'un résumé avec les points clés abordés."
-pubDate: "28 Mar 2024"
+pubDate: "22 Apr 2024"
 lang: "fr"
 heroImage: "/portfolio/speechy.webp"
 badge: "PERSONNEL"

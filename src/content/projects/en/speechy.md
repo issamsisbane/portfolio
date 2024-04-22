@@ -1,7 +1,7 @@
 ---
 title: "Speechy"
 description: "The Speechy project allows recording voice and transcribing what was said as well as summarizing with key points covered."
-pubDate: "Mar 28, 2024"
+pubDate: "Apr 22, 2024"
 lang: "en"
 heroImage: "/portfolio/speechy.webp"
 badge: "PERSONAL"
