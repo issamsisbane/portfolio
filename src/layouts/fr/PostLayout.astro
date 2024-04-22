@@ -15,6 +15,7 @@ const {
   badge,
   tags = [], 
 } = Astro.props;
+
 dayjs.extend(localizedFormat);
 const displayDate = dayjs(pubDate).format("ll");
 import { Image } from "astro:assets";
