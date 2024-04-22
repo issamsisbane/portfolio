@@ -3,7 +3,7 @@ title: "Sécuriser vos applications Azure : Guide pas à pas pour utiliser Azure
 description: "Découvrez comment renforcer la sécurité de vos applications Azure en utilisant Azure Key Vault avec Azure Functions. Suivez notre guide pas à pas pour protéger vos secrets et clés de manière efficace et sécurisée dans le cloud."
 lang: "fr"
 pubDate: "Apr 22 2024"
-heroImage: "/portfolio/blog/funvtion_kv/function_kv.png"
+heroImage: "/portfolio/blog/function_kv/function_kv.png"
 badge: "AZURE"
 tags: ["Cloud", "Azure", "Function", "KeyVault"]
 ---
