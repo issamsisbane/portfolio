@@ -19,7 +19,6 @@
                 Traduire en Français</button>
         </a>
     </div>
-    {{ actualLanguage }}
 </template>
 
 <script>
@@ -28,11 +27,11 @@ import { computed } from 'vue';
 export default {
     setup() {
         const actualLanguage = computed(() => {
-            return window.location.pathname.includes("/en/") ? "en" : "fr";
+            return window.location.pathname.includes("/en") ? "en" : "fr";
         });
 
         const newUrl = computed(() => {
-            if (actualLanguage === 'en') {
+            if (actualLanguage.value == "en") {
                 return "/portfolio/fr";
             } else {
                 return "/portfolio/en";
