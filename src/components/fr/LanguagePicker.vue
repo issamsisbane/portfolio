@@ -20,6 +20,7 @@
         </a>
     </div>
     {{ actualLanguage }}
+    {{ url }}
 </template>
 
 <script setup>
@@ -27,5 +28,9 @@ import { computed } from 'vue';
 
 const actualLanguage = computed(() => {
     return import.meta.url.includes("/en/") ? "en" : "fr";
+});
+
+const url = computed(() => {
+    return import.meta.url;
 });
 </script>
