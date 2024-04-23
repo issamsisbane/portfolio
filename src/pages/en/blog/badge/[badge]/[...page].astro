@@ -9,17 +9,17 @@ const url = Astro.url.pathname;
 const lang = url.toString().split("/")[2];
 
 export async function getStaticPaths({ paginate }) {
-  const all_posts = await getCollection("projects");
-  const all_tags = all_posts.flatMap((project) => {
-    return project.data.tags || [];
+  const all_posts = await getCollection("blog");
+  const all_badges = all_posts.flatMap((post) => {
+    return post.data.badge || [];
   });
 
-  return all_tags.flatMap((tag) => {
-    const filtred_posts = all_posts.filter((project) => {
-      return project.data.tags?.includes(tag);
+  return all_badges.flatMap((badge) => {
+    const filtred_projects = all_posts.filter((post) => {
+      return post.data.badge?.includes(badge);
     });
-    return paginate(filtred_posts, {
-      params: { tag },
+    return paginate(filtred_projects, {
+      params: { badge },
       pageSize: 10,
     });
   });
@@ -28,15 +28,15 @@ export async function getStaticPaths({ paginate }) {
 const params = Astro.params;
 ---
 
-<BaseLayout title={"Projects - " + params.tag} sideBarActiveItemID="projects">
+<BaseLayout title={"Posts - " + params.badge} sideBarActiveItemID="blog">
   <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Projects - {params.tag}</div>
+    <div class="text-3xl w-full font-bold">Posts - {params.badge}</div>
   </div>
   {
     page.data.length === 0 ? (
       <div class="bg-base-200 border-l-4 border-secondary w-full p-4 min-w-full">
         <p class="font-bold">Sorry!</p>
-        <p>There are no projects to show at the moment. Check back later!</p>
+        <p>There are no posts to show at the moment. Check back later!</p>
       </div>
     ) : (
       <ul>
@@ -49,7 +49,7 @@ const params = Astro.params;
                 img={post.data.heroImage}
                 desc={post.data.description}
                 url={
-                  "/portfolio/fr/projects/" +
+                  "/portfolio/fr/blog/" +
                   createSlug(post.data.title, post.slug)
                 }
                 target="_self"
@@ -77,7 +77,7 @@ const params = Astro.params;
           >
             <path d="M15.41,16.58L10.83,12L15.41,7.41L14,6L8,12L14,18L15.41,16.58Z" />
           </svg>{" "}
-          Recent projects
+          Recent posts
         </a>
       ) : (
         <div />
@@ -86,7 +86,7 @@ const params = Astro.params;
     {
       page.url.next ? (
         <a href={page.url.next} class="btn btn-ghost my-10 mx-5">
-          Older Projects{" "}
+          Older posts{" "}
           <svg
             class="h-6 w-6 fill-current md:h-8 md:w-8"
             xmlns="http://www.w3.org/2000/svg"
