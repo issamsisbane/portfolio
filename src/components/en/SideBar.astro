@@ -24,7 +24,7 @@ const { sideBarActiveItemID } = Astro.props;
       </a>
     </div>
     <SideBarMenu sideBarActiveItemID={sideBarActiveItemID} />
-    <LanguagePicker />
+    <LanguagePicker client:only />
     <SideBarFooter />
   </aside>
 </div>
