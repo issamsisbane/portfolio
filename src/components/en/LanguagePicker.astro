@@ -2,7 +2,7 @@
 
 ---
 
-<div class="flex justify-center">
+<div class="flex justify-center" title="Reload the page if the langage doesn't change.">
     <select
         id="languageSelect"
         class="select select-bordered select-sm w-1/2 max-w-xs"
@@ -28,5 +28,11 @@
         // urlSegments[1] = lang; // Replace the language segment of the URL
         // const newUrl = urlSegments.join("/");
         window.location.pathname = `/portfolio/${lang}`;
+    });
+
+    window.addEventListener("navigate", () => {
+        const currentLang = window.location.pathname.split("/")[2];
+        select.value = currentLang;
+        console.log("test")
     });
 </script>

@@ -10,6 +10,7 @@ const blogSchema = z.object({
     tags: z.array(z.string()).refine(items => new Set(items).size === items.length, {
         message: 'tags must be unique',
     }).optional(),
+    sideBarActiveItemID: z.string().optional(),
 });
 
 export type BlogSchema = z.infer<typeof blogSchema>;
