@@ -8,11 +8,14 @@ import TechStack from "../../components/fr/TechStack.astro";
 import { getCollection } from "astro:content";
 import createSlug from "../../lib/createSlug";
 
-const posts = (await getCollection("blog")).sort(
+const posts = (await getCollection("blog"))
+.filter((post) => post.data.lang == "fr")
+.sort(
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
 );
 
 const last_posts = posts.slice(0, 3);
+console.log(last_posts);
 ---
 
 <BaseLayout sideBarActiveItemID="home" title={"Accueil"}>
@@ -111,7 +114,6 @@ const last_posts = posts.slice(0, 3);
 
   {
     last_posts
-      .filter((post) => post.data.lang == "fr")
       .map((post) => (
         <>
           <HorizontalCard
@@ -126,7 +128,6 @@ const last_posts = posts.slice(0, 3);
         </>
       ))
   }
-  <div class="divider my-0"></div>
   <div class="flex justify-end">
     <a href="/portfolio/fr/blog"
       ><button class="btn btn-outline btn-sm">Autres posts...</button></a
