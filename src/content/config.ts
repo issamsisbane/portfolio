@@ -11,6 +11,7 @@ const blogSchema = z.object({
         message: 'tags must be unique',
     }).optional(),
     sideBarActiveItemID: z.string().optional(),
+    selected: z.boolean().optional(),
 });
 
 export type BlogSchema = z.infer<typeof blogSchema>;

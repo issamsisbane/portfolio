@@ -6,6 +6,7 @@ pubDate: "Mar 18 2024"
 heroImage: "/portfolio/kms.png"
 badge: "SCOLAIRE"
 tags: ["Recherche", "IoT", "Cryptographie", "Cloud", "Python", "Jupyter"]
+selected: true
 ---
 
 ## **Liens**

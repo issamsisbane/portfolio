@@ -13,8 +13,18 @@ const posts = (await getCollection("blog"))
 .sort(
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
 );
-
 const last_posts = posts.slice(0, 3);
+
+const projects = (await getCollection("projects"))
+.filter((project) => project.data.lang == "en")
+.filter((project) => project.data.selected == true)
+.sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+);
+
+const last_projects = projects.slice(0, 3);
+
+
 ---
 
 <BaseLayout sideBarActiveItemID="home" title={"Home"}>
@@ -67,30 +77,22 @@ const last_posts = posts.slice(0, 3);
     </div>
   </div>
 
-  <HorizontalCard
-    title="Clippy"
-    img="/portfolio/clippy.jpg"
-    desc="A web platform allowing for the ephemeral sharing of information, following the model of Pastebin."
-    url="/portfolio/en/projects/clippy"
-    badge="PERSONAL"
-  />
-  <div class="divider my-0"></div>
-  <HorizontalCard
-    title="Technology Watch "
-    img="/portfolio/technology_watch_img.webp"
-    desc="A state of art of health data analysis and a machine learning basics introduction."
-    url="/portfolio/en/projects/technology-watch"
-    badge="SCHOOL & WORK"
-  />
-  <div class="divider my-0"></div>
-  <HorizontalCard
-    title="Park IT !"
-    img="/portfolio/parkit_img.webp"
-    desc="An innovative IoT solution aimed at simplifying parking. With smart sensors and a user-friendly application, it provides an optimized parking experience."
-    url="/portfolio/en/projects/park-it"
-    badge="SCHOOL"
-  />
-  <div class="divider my-0"></div>
+  {
+    last_projects
+      .map((project) => (
+        <>
+          <HorizontalCard
+            title={project.data.title}
+            img={project.data.heroImage}
+            desc={project.data.description}
+            url={"/portfolio/en/projects/" + createSlug(project.data.title, project.slug)}
+            target="_self"
+            badge={project.data.badge}
+          />
+          <div class="divider my-0" />
+        </>
+      ))
+  }
   <div class="flex justify-end">
     <a href="/portfolio/en/projects"
       ><button class="btn btn-outline btn-sm">Other projects ...</button></a

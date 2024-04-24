@@ -6,6 +6,7 @@ pubDate: "Feb 15 2024"
 heroImage: "/portfolio/clippy.jpg"
 badge: "PERSONNEL"
 tags: ["Cloud", "Azure", "Nuxt", "CosmosDB", "Typescript"]
+selected: true
 ---
 
 ## **Liens**

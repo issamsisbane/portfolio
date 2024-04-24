@@ -6,6 +6,7 @@ pubDate: "24 janv. 2024"
 heroImage: "/portfolio/parkit_img.webp"
 badge: "SCOLAIRE"
 tags: ["Arduino", "FreeRtos", "Express", "TypeScript", "React Native"]
+selected: true
 ---
 ## **Liens**
 * [L'API du projet](https://github.com/IssamSisbane/parkit-api)
