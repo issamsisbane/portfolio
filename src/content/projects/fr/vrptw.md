@@ -4,7 +4,7 @@ description: "Ce projet présente une approche de résolution du Problème de VR
 lang: "fr"
 pubDate: "Apr 9 2024"
 heroImage: "/portfolio/vrp.png"
-badge: "PERSONNEL"
+badge: "SCOLAIRE"
 tags: ["ML", "Jupyter", "Python", "Notebook"]
 ---
 

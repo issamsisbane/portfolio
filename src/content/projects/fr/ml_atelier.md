@@ -4,7 +4,7 @@ description: "Ce projet regroupe des travaux que j'ai pu réaliser dans le cadre
 lang: "fr"
 pubDate: "Apr 9 2024"
 heroImage: "/portfolio/ml.png"
-badge: "PERSONNEL"
+badge: "SCOLAIRE"
 tags: ["ML", "Jupyter", "Python", "Notebook"]
 ---
 

@@ -4,7 +4,7 @@ description: "This project compiles works I have been able to accomplish as part
 lang: "en"
 pubDate: "Apr 9 2024"
 heroImage: "/portfolio/ml.png"
-badge: "PERSONAL"
+badge: "ACADEMIC"
 tags: ["ML", "Jupyter", "Python", "Notebook"]
 ---
 

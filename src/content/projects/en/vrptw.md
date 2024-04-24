@@ -4,7 +4,7 @@ description: "This project presents an approach to solving the Vehicle Routing P
 lang: "en"
 pubDate: "Apr 9 2024"
 heroImage: "/portfolio/vrp.png"
-badge: "PERSONAL"
+badge: "ACADEMIC"
 tags: ["ML", "Jupyter", "Python", "Notebook"]
 ---
 
