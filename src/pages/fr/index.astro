@@ -9,23 +9,17 @@ import { getCollection } from "astro:content";
 import createSlug from "../../lib/createSlug";
 
 const posts = (await getCollection("blog"))
-.filter((post) => post.data.lang == "fr")
-.sort(
-  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
-);
+  .filter((post) => post.data.lang == "fr")
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 
 const last_posts = posts.slice(0, 3);
 
-
 const projects = (await getCollection("projects"))
-.filter((project) => project.data.lang == "fr")
-.filter((project) => project.data.selected == true)
-.sort(
-  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
-);
+  .filter((project) => project.data.lang == "fr")
+  .filter((project) => project.data.selected == true)
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 
 const last_projects = projects.slice(0, 3);
-
 ---
 
 <BaseLayout sideBarActiveItemID="home" title={"Accueil"}>
@@ -38,20 +32,22 @@ const last_projects = projects.slice(0, 3);
     <div class="py-2">
       <text class="text-lg">
         <p class="text-justify">
-          J'aime apprendre et construire en utilisant des <b
-            >solutions innovantes</b
-          > et de nouvelles méthodes de travail. Je suis toujours à la recherche
-          de nouveaux défis et opportunités. En tant que <b
-            >passionné de technologie</b
-          >, j'aime être impressioné par la <b>découverte</b> de technologies émergentes
-          et l'exploration de leurs applications potentielles. Je m'efforce de rester
-          à la pointe de l'<b>innovation</b> et d'adopter de
+          Passionné par l'<b>innovation</b> et les <b>nouvelles technologies</b
+          >, j'aime <b>apprendre et découvrir</b>. Je suis toujours à la
+          recherche de <b>nouveaux défis et opportunités</b> pour me challenger et
+          m'améliorer. Je m'efforce de rester à la pointe de l'<b>innovation</b>
+          et de garder un <b>esprit ouvert</b> afin d'adopter de
           <b>nouvelles idées</b>.
         </p>
       </text>
     </div>
     <div class="mt-8">
-      <a class="btn" href="mailto:issam.sisbane@gmail.com" target="_blank" title="issam.sisbane@gmail.com">
+      <a
+        class="btn"
+        href="mailto:issam.sisbane@gmail.com"
+        target="_blank"
+        title="issam.sisbane@gmail.com"
+      >
         Me contacter</a
       >
       <a
@@ -76,25 +72,27 @@ const last_projects = projects.slice(0, 3);
 
   <div>
     <div class="text-3xl w-full font-bold mb-2">
-      Selection de Projets {"</>"}
+      Sélection de Projets {"</>"}
     </div>
   </div>
 
   {
-    last_projects
-      .map((project) => (
-        <>
-          <HorizontalCard
-            title={project.data.title}
-            img={project.data.heroImage}
-            desc={project.data.description}
-            url={"/portfolio/fr/projects/" + createSlug(project.data.title, project.slug)}
-            target="_self"
-            badge={project.data.badge}
-          />
-          <div class="divider my-0" />
-        </>
-      ))
+    last_projects.map((project) => (
+      <>
+        <HorizontalCard
+          title={project.data.title}
+          img={project.data.heroImage}
+          desc={project.data.description}
+          url={
+            "/portfolio/fr/projects/" +
+            createSlug(project.data.title, project.slug)
+          }
+          target="_self"
+          badge={project.data.badge}
+        />
+        <div class="divider my-0" />
+      </>
+    ))
   }
   <div class="flex justify-end">
     <a href="/portfolio/fr/projects"
@@ -115,20 +113,19 @@ const last_projects = projects.slice(0, 3);
   </div>
 
   {
-    last_posts
-      .map((post) => (
-        <>
-          <HorizontalCard
-            title={post.data.title}
-            img={post.data.heroImage}
-            desc={post.data.description}
-            url={"/portfolio/fr/blog/" + createSlug(post.data.title, post.slug)}
-            target="_self"
-            badge={post.data.badge}
-          />
-          <div class="divider my-0" />
-        </>
-      ))
+    last_posts.map((post) => (
+      <>
+        <HorizontalCard
+          title={post.data.title}
+          img={post.data.heroImage}
+          desc={post.data.description}
+          url={"/portfolio/fr/blog/" + createSlug(post.data.title, post.slug)}
+          target="_self"
+          badge={post.data.badge}
+        />
+        <div class="divider my-0" />
+      </>
+    ))
   }
   <div class="flex justify-end">
     <a href="/portfolio/fr/blog"
