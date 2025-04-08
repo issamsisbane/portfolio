@@ -1,6 +1,6 @@
 ---
 title: "Design a Basic VPC Architecture"
-description: "This project aims to create a basic architecture for a VPC"
+description: "This project aims to create a basic architecture for a VPC."
 lang: "en"
 pubDate: "Sept 17 2024"
 heroImage: "/portfolio/projects/vpc.webp"
