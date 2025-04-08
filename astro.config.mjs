@@ -6,7 +6,7 @@ import vue from "@astrojs/vue";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://IssamSisbane.github.io',
+  site: process.env.PUBLIC_SITE_URL,
   base: '/portfolio',
   integrations: [mdx(), sitemap(), tailwind(), vue()],
   i18n: {
