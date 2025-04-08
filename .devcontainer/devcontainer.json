@@ -1,0 +1,15 @@
+{
+    "name": "Astro + pnpm DevContainer",
+    "build": {
+      "dockerfile": "Dockerfile"
+    },
+    "postCreateCommand": "pnpm install",
+    "forwardPorts": [4321],
+    "features": {
+      "ghcr.io/devcontainers/features/node:1": {
+        "version": "20",
+        "pnpm": "true"
+      }
+    }
+  }
+  
