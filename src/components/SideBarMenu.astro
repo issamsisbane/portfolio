@@ -11,7 +11,7 @@ const menuItems = await import(`../i18n/locales/${lang}/sidebar.${lang}.json`).t
   {menuItems.map((item) => (
     <li>
       <a
-        class="py-3 text-base"
+        class="py-3 text-xl"
         id={item.id}
         href={item.href}
         set:html={item.label}
