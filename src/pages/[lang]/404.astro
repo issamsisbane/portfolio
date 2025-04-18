@@ -3,6 +3,10 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 
 const { lang } = Astro.params;
 const labels = await import(`../../i18n/locales/${lang}/404.${lang}.json`).then((m) => m.default);
+
+export async function getStaticPaths() {
+  return [{ params: { lang: "fr" } }, { params: { lang: "en" } }];
+}
 ---
 
 <BaseLayout title={labels.title} includeSidebar={false}>
