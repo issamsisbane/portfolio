@@ -3,7 +3,7 @@ title: "Machine Learning Atelier"
 description: "This project compiles works I have been able to accomplish as part of my courses to familiarize myself with Machine Learning and its learning methods."
 lang: "en"
 pubDate: "Apr 9 2024"
-heroImage: "/portfolio/ml.png"
+heroImage: "/portfolio/projects/ml_atelier/ml.png"
 badge: "ACADEMIC"
 tags: ["ML", "Jupyter", "Python", "Notebook"]
 ---

@@ -1,0 +1,28 @@
+[
+    {
+      "title": "Engineering Degree in Computer Science",
+      "subtitle": "From September 2021 to September 2024 at Polytech Lyon, France",
+      "image_link": "polytech_lyon_logo",
+      "image_alt": "Polytech Lyon logo",
+      "content": [
+        "During my tenure at <b>Polytech Lyon</b>, I was exposed to a diverse and rigorous curriculum covering a broad range of subjects, each contributing to my comprehensive understanding of computer science and engineering.",
+        "In the field of <b>data science</b>, I delved into advanced topics such as <b>Big Data</b>, with a particular emphasis on <b>machine learning techniques</b>. Through <b>hands-on projects</b> and theoretical study, I gained proficiency in <b>analyzing large datasets</b> and deriving meaningful insights to inform decision-making processes.",
+        "I had courses about <b>Information Systems</b> which provided me with valuable insights into the <b>design and management</b> of complex information systems in urban environments. This involved understanding the integration of various technologies and data sources to support urban planning and development initiatives.",
+        "In the realm of <b>project management</b>, I acquired <b>essential skills and techniques</b> for effectively <b>planning, executing, and monitoring projects</b> from conception to completion. This included aspects such as <b>project planning</b>, <b>risk management</b>, and <b>stakeholder communication</b>.",
+        "Courses in <b>Algorithmics</b>, <b>Graph Theory</b>, and <b>Discrete Optimization</b> equipped me with a <b>diverse toolkit of problem-solving techniques</b>. From developing efficient algorithms to <b>modeling and solving complex optimization problems</b>, these courses enhanced my analytical and critical thinking skills. Notably, I also received specialized training in linear optimization techniques, enabling me to solve complex problems by finding good solutions without necessarily finding the optimal solution, utilizing heuristics.",
+        "Throughout my studies, I actively engaged in <b>group projects</b>, where I had the opportunity to apply my knowledge and skills to <b>real-world scenarios</b>. These projects often focused on emerging technologies such as mobile and web development, allowing me to gain practical experience in <b>designing and implementing software solutions</b> to address specific needs and challenges."
+      ]
+    },
+    {
+      "title": "Technical University Degree (DUT) in Computer Science",
+      "subtitle": "From September 2019 to September 2021 at IUT Lyon 1, France",
+      "image_link": "iut_logo",
+      "image_alt": "IUT Lyon 1 logo",
+      "content": [
+        "I began my academic journey in computer science at <b>Lyon 1</b>, where I pursued an <b>intensive program</b> focused on the <b>fundamentals of computer science</b>.",
+        "During my studies, I gained a solid understanding of programming concepts, databases, computer networks, and other key areas of computer science, but not only. Indeed, I also had courses about finances, law and project management.",
+        "Moreover, I had the opportunity to participate in practical projects that allowed me to apply my <b>theoretical knowledge</b> to real-world situations, thereby strengthening my <b>technical skills</b> and <b>practical experience</b>."
+      ]
+    }
+  ]
+  

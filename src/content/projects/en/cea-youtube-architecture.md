@@ -3,7 +3,7 @@ title: "Design an Architecture for Youtube"
 description: "This project aims to design an architecture for few most used Youtube functionalities."
 lang: "en"
 pubDate: "Sept 16 2024"
-heroImage: "/portfolio/projects/youtube.webp"
+heroImage: "/portfolio/projects/cea-youtube-architecture/youtube.webp"
 badge: "PERSONAL"
 tags: ["Cloud", "Architecture", "Cloud Engineer Academy"]
 ---
@@ -17,7 +17,7 @@ tags: ["Cloud", "Architecture", "Cloud Engineer Academy"]
 
 ---
 
-# 1 - Requirements
+## 1 - Requirements
 
 Before designing an architecture, it’s crucial to understand the **features** of the application and define the **architecture requirements**.
 
@@ -37,51 +37,51 @@ The architecture must be :
 
 ---
 
-# 2 - Video Upload
+## 2 - Video Upload
 
 
-![](/portfolio/projects/youtube_upload_video_architecture.gif)
+![](/portfolio/projects/cea-youtube-architecture/youtube_upload_video_architecture.gif)
 
-## 1. **Access YouTube**
+### 1. **Access YouTube**
 
 **Content creators** (YouTubers) can access YouTube via their **browser** using HTTPS for secure communication.
 
-## 2. **Uploading a Video**
+### 2. **Uploading a Video**
 
-### **Video Data**
+#### **Video Data**
 
 The first part of the upload process is transferring the video itself.
 
 - **YouTubers** typically upload videos at high resolutions (e.g., 4K).
 - Since video data is **unstructured** and requires **scalability** and **durability**, an **Object Storage** service (like **Amazon S3**) is ideal for storing video files. Object storage is cost-effective because it supports pay-as-you-go pricing, meaning you only pay for the storage you use, which makes it suitable for massive volumes of video data.
 
-### **Metadata**
+#### **Metadata**
 
 Metadata includes details like the video’s title, description, tags, and more. This is **structured data** that requires fast, scalable storage.
 
 - **Relational databases** (such as MySQL) might struggle to handle the sheer volume of concurrent users on YouTube because relational databases scale **vertically**, which can lead to increased costs and performance bottlenecks.
 - Instead, using a **Non-relational (NoSQL) database** (like **Cassandra** or **DynamoDB**) is a better option because it can scale **horizontally**, distributing the load across many servers, making it ideal for massive amounts of metadata.
 
-## 3. **Video Processing**
+### 3. **Video Processing**
 
 Once the video is uploaded, YouTube processes the video by:
 
 - **Converting it into multiple resolutions** (e.g., 240p, 360p, 720p, 1080p, 4K) to ensure it can be played smoothly across various devices and internet speeds.
 - This can be done using **microservices**, **dedicated servers** or **Serverless Functions** to handle the video transcoding, making sure the content is accessible to everyone.
 
-## 4. **Video Analysis**
+### 4. **Video Analysis**
 
 Simultaneously with processing, **automated content analysis** checks the video for inappropriate content. The system analyzes each video frame by frame to detect anything that violates YouTube’s policies.
 
 - If flagged, the **metadata** is updated to restrict or block access to the video, ensuring compliance with YouTube's content policies.
 
-## 5. **Optimized Storage**
+### 5. **Optimized Storage**
 
 Once the video is processed, the various resolution versions are stored in another **object storage** system, optimized for streaming.
 
 - **Serverless functions** (like **AWS Lambda**) can be used to automate the process of moving videos to the correct storage locations based on events (e.g., after a video is uploaded).
 
-## 6. **Serving Content**
+### 6. **Serving Content**
 
 To ensure fast content delivery, YouTube uses a **Content Delivery Network (CDN)**.
 
@@ -90,17 +90,17 @@ To ensure fast content delivery, YouTube uses a **Content Delivery Network (CDN)
 
 ---
 
-# 3 - Searching and Watching Videos
+## 3 - Searching and Watching Videos
 
-![](/portfolio/projects/youtube_watch_video_architecture.gif)
+![](/portfolio/projects/cea-youtube-architecture/youtube_watch_video_architecture.gif)
 
-## 1. **Accessing YouTube**
+### 1. **Accessing YouTube**
 
 When a user visits YouTube, they are presented with the homepage.
 
 - The **homepage** consists mostly of **static content**, such as video thumbnails and recommended videos. This static content is stored in **object storage**, allowing faster page loads.
 
-## 2. **Searching for a Video**
+### 2. **Searching for a Video**
 
 When a user searches for a video, the search request is sent to the **CDN**:
 
@@ -109,7 +109,7 @@ When a user searches for a video, the search request is sent to the **CDN**:
 
 The homepage is **static**, but after performing a search, YouTube's **dynamic content** comes into play, showing personalized search results.
 
-## 3. **Watching a Video**
+### 3. **Watching a Video**
 
 When a user clicks on a video:
 
@@ -120,38 +120,38 @@ This system ensures that **popular content** is always served with minimal laten
 
 ---
 
-# 4 - Key System Components in YouTube Design
+## 4 - Key System Components in YouTube Design
 
-## 1. **Object Storage**
+### 1. **Object Storage**
 
 - Used to store unstructured video files.
 - Provides **scalability**, **durability**, and **cost efficiency** for large volumes of data.
 
-## 2. **Non-relational Databases (NoSQL)**
+### 2. **Non-relational Databases (NoSQL)**
 
 - Used to store **metadata** for millions of videos, ensuring that the database scales **horizontally** to handle high traffic. We selected a NoSQL database because the metadata are **free form type** of data (meaning we can have different fields depending on the video) and also because it easily scalable compared to relational database.
 
-## 3. **Video Processing and Analysis**
+### 3. **Video Processing and Analysis**
 
 - Responsible for converting videos into multiple formats and performing **content checks** to flag inappropriate content.
 
-## 4. **CDN (Content Delivery Network)**
+### 4. **CDN (Content Delivery Network)**
 
 - Ensures that video content is cached close to users, reducing load times and improving streaming performance.
 
-## 5. **API Gateway**
+### 5. **API Gateway**
 
 - Serves as a central hub for routing **search requests** and **dynamic content** queries to the appropriate backend services.
 
-## 6. **Serverless Functions**
+### 6. **Serverless Functions**
 
 - These handle event-based tasks such as moving video files to different storage locations or responding to search queries.
 
 ---
 
-# 5 - Considerations
+## 5 - Considerations
 
-## **1. Scalability**
+### **1. Scalability**
 
 To handle the massive user base and continuous video uploads, YouTube's architecture must be designed to scale horizontally and vertically across multiple layers:
 
@@ -166,7 +166,7 @@ To handle the massive user base and continuous video uploads, YouTube's architec
     
     - **CDN**: The CDN ensures that video content is cached close to users, reducing the load on the origin servers and handling large numbers of concurrent streaming requests. CDNs dynamically scale their edge locations globally, distributing the load based on user demand patterns.
 
-## **2. Resilience**
+### **2. Resilience**
 
 Resilience ensures that YouTube remains available and operational even in the face of failures, network issues, or hardware faults:
 
@@ -182,7 +182,7 @@ Resilience ensures that YouTube remains available and operational even in the fa
     
     - **Fallback Mechanisms**: If a particular service (e.g., video processing) is temporarily unavailable, the system can degrade gracefully by, for instance, allowing users to upload videos and view existing ones while deferring new video processing tasks.
 
-## **3. Latency**
+### **3. Latency**
 
 Latency is critical for YouTube, as users expect videos to load quickly and play smoothly:
 
@@ -200,6 +200,6 @@ Latency is critical for YouTube, as users expect videos to load quickly and play
 
 ---
 
-# 6 - **Conclusion**
+## 6 - **Conclusion**
 
 YouTube’s architecture must handle massive traffic, support the storage and retrieval of large volumes of video data, and deliver content quickly to users around the world. By leveraging **object storage** for videos, **NoSQL databases** for metadata, and **CDNs** for content distribution, YouTube ensures **scalability**, **high availability**, and **performance**. Additionally, the use of **serverless functions** and **API Gateways** helps manage dynamic requests efficiently and enables seamless interaction with a complex microservices architecture.

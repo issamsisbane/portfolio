@@ -3,7 +3,7 @@ title: "Design an Architecture for an E-commerce application"
 description: "This project aims to create an architecture for an E-commerce application."
 lang: "en"
 pubDate: "Sept 14 2024"
-heroImage: "/portfolio/projects/cea-ecommerce-architecture.webp"
+heroImage: "/portfolio/projects/cea-ecommerce-architecture/cea-ecommerce-architecture.webp"
 badge: "PERSONAL"
 tags: ["Cloud", "Architecture", "Cloud Engineer Academy"]
 ---
@@ -22,7 +22,7 @@ This project offered a good learning experience, allowing me to gain valuable in
 
 ---
 
-# Requirements
+## Requirements
 
 ### Key Features
 
@@ -44,7 +44,7 @@ In order to be efficient and adapt to users needs we must ensure an architecture
 
 ## Part 1: Monolithic Architecture Design
 
-![](/portfolio/projects/monolithic_architecture_ecommerce.png)
+![](/portfolio/projects/cea-ecommerce-architecture/monolithic_architecture_ecommerce.png)
 
 ### Components 
 
@@ -79,9 +79,11 @@ The monolithic architecture follows a layered pattern where all functionalities 
 - **Deployment**: Any update, even a small one, requires redeploying the entire application. This can lead to longer deployment times and increased downtime.
 - **Tight Coupling**: All components are closely linked, making it difficult to isolate and develop new features independently.
 
+---
+
 ## Part 2: Refactoring into Microservices
 
-![](/portfolio/projects/microservices_architecture_ecommerce.gif)
+![](/portfolio/projects/cea-ecommerce-architecture/microservices_architecture_ecommerce.gif)
 
 ### Design Microservices
 
@@ -115,8 +117,10 @@ Each microservice will have its own database to ensure loose coupling and indepe
 
 - **Data Consistency**: In a monolith, maintaining data consistency is straightforward since a single database is shared. However, in microservices, each service has its own database, leading to challenges in maintaining data consistency across services. For example, ensuring that inventory is updated correctly when an order is placed requires coordination between the Order Service and Product Service. Techniques like eventual consistency, distributed transactions, and the Saga pattern are used to address these challenges, but they add complexity to the system.
 
+---
+
 ## Part 3: Incorporating Serverless Architecture
-![](/portfolio/projects/serverless_architecture_ecommerce.gif)
+![](/portfolio/projects/cea-ecommerce-architecture/serverless_architecture_ecommerce.gif)
 
 ### Design Functions
 
@@ -171,6 +175,7 @@ This serverless approach allows for highly modular and scalable components, wher
 * **Lifecycle and State**: Microservices typically run continuously and can maintain state across requests. Serverless functions, on the other hand, are stateless and ephemeral, executing only in response to specific events (e.g., HTTP triggers).
 
 * **Infrastructure Management**: Microservices require managing infrastructure (even if containerized), whereas serverless offloads this responsibility entirely to the cloud provider.
+
 ### Challenges
 
 * **Cold Starts**: Serverless functions may experience latency during the initial invocation, known as a "cold start." This can lead to delays, particularly for time-sensitive operations.
@@ -180,6 +185,8 @@ This serverless approach allows for highly modular and scalable components, wher
 * **Execution Limits**: Serverless functions often have limits on execution time (e.g., AWS Lambda has a 15-minute limit), making them less suitable for long-running processes.
 
 * **Complexity in Coordination**: Breaking down services into numerous functions can introduce complexity in managing workflows and interactions between functions. This requires careful design to ensure that the system remains cohesive and manageable.
+
+---
 
 ## How to choose ?
 

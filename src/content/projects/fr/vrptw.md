@@ -3,7 +3,7 @@ title: "Optimisation Discrète VRPTW"
 description: "Ce projet présente une approche de résolution du Problème de VRP (Vehicle Routing Problem) en utilisant diverses métaheuristiques. Il explore la création de routes de livraison efficaces pour desservir des clients tout en respectant des contraintes spécifiques, mettant en œuvre des algorithmes tels que la Recherche Tabou, le Recuit Simulé et la Descente de Gradient."
 lang: "fr"
 pubDate: "Apr 9 2024"
-heroImage: "/portfolio/vrp.png"
+heroImage: "/portfolio/projects/vrptw/vrp.png"
 badge: "SCOLAIRE"
 tags: ["ML", "Jupyter", "Python", "Notebook"]
 ---

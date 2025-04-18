@@ -1,0 +1,31 @@
+
+---
+const { sideBarActiveItemID } = Astro.props;
+const activeClass = "bg-base-300";
+
+const { lang } = Astro.params;
+const menuItems = await import(`../i18n/locales/${lang}/sidebar.${lang}.json`).then(m => m.default);
+---
+
+<ul class="menu grow shrink menu-md overflow-y-auto">
+  {menuItems.map((item) => (
+    <li>
+      <a
+        class="py-3 text-base"
+        id={item.id}
+        href={item.href}
+        set:html={item.label}
+      ></a>
+    </li>
+  ))}
+</ul>
+
+<script
+  define:vars={{
+    sideBarActiveItemID: sideBarActiveItemID,
+    activeClass: activeClass
+  }}
+>
+  const activeItemElem = document.getElementById(sideBarActiveItemID);
+  activeItemElem && activeItemElem.classList.add(activeClass);
+</script>

@@ -3,7 +3,7 @@ title: "Veille Technologique"
 description: "État de l'art de l'analyse des données de santé et introduction aux bases de l'apprentissage automatique."
 lang: "fr"
 pubDate: "Feb 24 2023"
-heroImage: "/portfolio/technology_watch_img.webp"
+heroImage: "/portfolio/projects/technology_watch/technology_watch_img.webp"
 badge: "SCOLAIRE & PROFESSIONNEL"
 tags: ["ML", "Santé", "Analyse", "Données"]
 ---

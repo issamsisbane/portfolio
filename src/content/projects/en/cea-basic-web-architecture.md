@@ -3,18 +3,18 @@ title: "Design a Basic Web Application Architecture"
 description: "This project aims to create a basic architecture for a Web Application."
 lang: "en"
 pubDate: "Sept 09 2024"
-heroImage: "/portfolio/projects/cea-basic-web-architecture-cover.webp"
+heroImage: "/portfolio/projects/cea-basic-web-architecture/cea-basic-web-architecture-cover.webp"
 badge: "PERSONAL"
 tags: ["Cloud", "Architecture", "Cloud Engineer Academy"]
 ---
 
-# Project Objective
+## Project Objective
 
 The goal of this project is to design a cloud infrastructure that supports a web application, ensuring high availability, fault tolerance, and scalability.
 
-# Architecture Overview
+## Architecture Overview
 
-![Week2_Architecture_basic.png](/portfolio/projects/Week2_Architecture_basic.png)
+![Week2_Architecture_basic.png](/portfolio/projects/cea-basic-web-architecture/Week2_Architecture_basic.png)
 
 1. **Firewall**:  
     The first component in my architecture is the firewall. It acts as a security layer that filters incoming requests based on predefined rules. Only legitimate traffic is allowed through, protecting the infrastructure from potential attacks.
@@ -34,7 +34,7 @@ The goal of this project is to design a cloud infrastructure that supports a web
     - **Frontend**: The web application frontend resides in a public subnet, making it accessible to users. It delivers the user interface and handles client-side requests.
     - **Backend**: The backend, consisting of APIs and databases, is hosted in a private subnet to enhance security. By isolating the backend from public access, I reduce the attack surface and protect sensitive data.
 
-# Scaling Strategies for High Availability and Fault Tolerance
+## Scaling Strategies for High Availability and Fault Tolerance
 
 Each component in the architecture is scaled according to its function and needs to ensure performance and resilience:
 
@@ -50,7 +50,7 @@ Each component in the architecture is scaled according to its function and needs
 
 ---
 
-# Summary of Design Choices
+## Summary of Design Choices
 
 - **Horizontal Scaling** is chosen for most components because it provides better fault tolerance, performance, and ease of scaling by adding more servers.
 - **Geographical Redundancy** ensures that the system can handle regional failures, automatically routing traffic to the nearest available region.

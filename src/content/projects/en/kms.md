@@ -3,7 +3,7 @@ title: "KMS"
 description: "This project aimed to secure cloud and IoT data while preserving their confidentiality by designing a KMS solution."
 lang: "en"
 pubDate: "Mar 18 2024"
-heroImage: "/portfolio/kms.png"
+heroImage: "/portfolio/projects/kms/kms.png"
 badge: "ACADEMIC"
 tags: ["Research", "IoT", "Cryptography", "Cloud", "Python", "Jupyter"]
 selected: true

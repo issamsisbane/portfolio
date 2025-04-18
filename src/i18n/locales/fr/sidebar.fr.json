@@ -1,0 +1,18 @@
+[
+    {
+      "id": "home",
+      "label": "Accueil",
+      "href": "/portfolio/fr"
+    },
+    {
+      "id": "projects",
+      "label": "Projets",
+      "href": "/portfolio/fr/projects/"
+    },
+    {
+      "id": "blog",
+      "label": "Blog",
+      "href": "/portfolio/fr/blog/"
+    }
+  ]
+  

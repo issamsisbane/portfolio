@@ -1,0 +1,44 @@
+---
+import TimeLineElement from "./TimeLine.astro";
+import ciril_group_logo from "../assets/logos/ciril_group_logo.svg";
+import thuasne_logo from "../assets/logos/thuasne_logo.svg";
+
+const images = {
+  "ciril_group_logo": ciril_group_logo,
+  "thuasne_logo": thuasne_logo,
+};
+
+const lang = Astro.params.lang ?? "en";
+const experience = await import(`../i18n/locales/${lang}/experience.${lang}.json`).then(m => m.default);
+---
+
+<div class="mb-5">
+    <div class="text-3xl w-full font-bold">{lang === 'fr' ? "Expérience" : "Experience"} {"<👨🏽‍💻>"}</div>
+</div>
+
+<div class="time-line-container mb-10">
+    {experience.map((item, index) => (
+      <>
+      <TimeLineElement
+        title={item.title}
+        subtitle={item.subtitle}
+        image_link={images[item.image_link]}
+        image_alt={item.image_alt}
+      >
+        {item.content.map((paragraph) => (
+          <p class="my-2 text-justify" set:html={paragraph}></p>
+        ))}
+        
+        <br />
+        
+        <b>Stack:</b><br />
+        <div class="flex flex-wrap gap-2 mt-2">
+          {item.stack.map(skill => (
+            <div class="badge badge-secondary badge-outline">{skill}</div>
+          ))}
+        </div>
+      </TimeLineElement>
+      {index < experience.length - 1 && <br />}
+      </>
+    ))}
+</div>

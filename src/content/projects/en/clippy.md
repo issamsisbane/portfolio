@@ -3,7 +3,7 @@ title: "Clippy"
 description: "A web platform allowing for the ephemeral sharing of information, following the model of Pastebin."
 lang: "en"
 pubDate: "Feb 15 2024"
-heroImage: "/portfolio/clippy.jpg"
+heroImage: "/portfolio/projects/clippy/clippy.jpg"
 badge: "PERSONAL"
 tags: ["Cloud", "Azure", "Nuxt", "CosmosDB", "Typescript"]
 selected: true
@@ -40,7 +40,7 @@ Frontend:
 * `Typescript`
 
 ## **Architecture**
-![clippy-architecture](/portfolio/clippy-architecture.webp)
+![clippy-architecture](/portfolio/clippy/clippy-architecture.webp)
 
 ## **Results**
 Having some experience with Azure technologies and JavaScript, this project was relatively straightforward to set up and use. Ultimately, it is possible to create a 'clip' that can be either text or a file. It is also possible to decide the validity period of the clip. After creation, a path for the clip is generated, which corresponds to an animal name. Thus, you just need to type the site's URL followed by the clip's path to access it. Deletion occurs automatically every day, and access to the clip is denied if the validity period has expired but it has not yet been deleted.

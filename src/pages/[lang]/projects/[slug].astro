@@ -1,0 +1,50 @@
+---
+import { type CollectionEntry, getCollection } from "astro:content";
+import type { BlogSchema } from "../../../content/config";
+import PostLayout from "../../../layouts/PostLayout.astro";
+import createSlug from "../../../lib/createSlug";
+
+const { lang } = Astro.params;
+const { entry } = Astro.props;
+
+interface Props {
+  entry: CollectionEntry<"projects">;
+  lang: string;
+}
+
+const post: BlogSchema = entry.data;
+const { Content } = await entry.render();
+
+export async function getStaticPaths() {
+  const projectEntries = await getCollection("projects");
+
+  const langs = ["fr", "en"];
+
+  return langs.flatMap((lang) =>
+    projectEntries
+      .filter((entry) => entry.data.lang === lang)  
+      .map((entry) => ({
+        params: {
+          lang: lang, 
+          slug: createSlug(entry.data.title, entry.slug),
+        },
+        props: { entry }, 
+      }))
+  );
+}
+
+---
+
+<PostLayout
+  title={post.title}
+  description={post.description}
+  pubDate={post.pubDate}
+  updatedDate={post.updatedDate}
+  heroImage={post.heroImage}
+  badge={post.badge}
+  tags={post.tags}
+  lang={lang}
+  sideBarActiveItemID="projects"
+>
+  <Content />
+</PostLayout>

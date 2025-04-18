@@ -3,7 +3,7 @@ title: "Speechy"
 description: "The Speechy project allows recording voice and transcribing what was said as well as summarizing with key points covered."
 pubDate: "Apr 22, 2024"
 lang: "en"
-heroImage: "/portfolio/speechy.webp"
+heroImage: "/portfolio/projects/speechy/speechy.webp"
 badge: "PERSONAL"
 tags: ["Azure", "AI", "LLM", "Nuxt", "TypeScript"]
 ---
@@ -49,7 +49,7 @@ So, I am starting to think about hosting this model on Azure. This will save me 
 * `GPT-3.5-Turbo`
 
 ## **Architecture**
-![speechy-architecture](/portfolio/speechy-architecture.png)
+![speechy-architecture](/portfolio/projects/speechy/speechy-architecture.png)
 
 ## Results
 The project works well, I can record my voice or directly add an audio file. This will then be sent to my backend (Azure Function) and finally to OpenAI to get the transcription. With the transcription, we send this time to GPT-3.5-Turbo to get a summary and the key points covered.

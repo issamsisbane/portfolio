@@ -3,7 +3,7 @@ title: "Mawaqit Discord Notify"
 description: "Un bot discord permettant d'envoyé des notifications à des heures précises de la journée récupérées à l'aide du scraping d'un siteweb."
 lang: "fr"
 pubDate: "Apr 8 2024"
-heroImage: "/portfolio/mawaqit.webp"
+heroImage: "/portfolio/projects/mawaqit_discord/mawaqit.webp"
 badge: "PERSONNEL"
 tags: ["Cloud", "Azure", "Cron", "Docker", "Javascript", "Scraping"]
 ---
@@ -52,7 +52,7 @@ J'ai donc choisi d'utiliser des conteneurs simples en utilisant Azure Container 
 
 ## **Architecture**
 
-![mawaqit_discord_architecture.drawio.png](/portfolio/mawaqit_discord_architecture.png)
+![mawaqit_discord_architecture.drawio.png](/portfolio/projects/mawaqit_discord/mawaqit_discord_architecture.png)
 
 ## **Résultats**
 

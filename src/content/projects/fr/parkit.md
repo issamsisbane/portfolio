@@ -3,7 +3,7 @@ title: "Park IT !"
 description: "Le projet Park It! est une solution IoT innovante visant à simplifier le stationnement. Avec des capteurs intelligents et une application conviviale, il offre une expérience de stationnement optimisée."
 lang: "fr"
 pubDate: "24 janv. 2024"
-heroImage: "/portfolio/parkit_img.webp"
+heroImage: "/portfolio/projects/parkit/parkit_img.webp"
 badge: "SCOLAIRE"
 tags: ["Arduino", "FreeRtos", "Express", "TypeScript", "React Native"]
 selected: true

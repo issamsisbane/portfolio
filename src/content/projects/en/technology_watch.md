@@ -3,7 +3,7 @@ title: "Technology Watch"
 description: "Health data analysis state of art and a machine learning basics introduction."
 lang: "en"
 pubDate: "Feb 24 2023"
-heroImage: "/portfolio/technology_watch_img.webp"
+heroImage: "/portfolio/projects/technology_watch/technology_watch_img.webp"
 badge: "ACADEMIC & PROFESSIONAL"
 tags: ["ML", "Health", "Analysis", "Data"]
 ---

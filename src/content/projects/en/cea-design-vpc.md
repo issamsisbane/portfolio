@@ -3,7 +3,7 @@ title: "Design a Basic VPC Architecture"
 description: "This project aims to create a basic architecture for a VPC."
 lang: "en"
 pubDate: "Sept 17 2024"
-heroImage: "/portfolio/projects/vpc.webp"
+heroImage: "/portfolio/projects/cea-design-vpc/vpc.webp"
 badge: "PERSONAL"
 tags: ["Cloud", "AWS", "Network", "VPC", "Cloud Engineer Academy"]
 ---
@@ -18,7 +18,7 @@ This was my **first** experience learning about **VPCs** and designing one. I ha
 
 ---
 
-# 1 - Requirements
+## 1 - Requirements
 
 1. **VPC Design**: Create a VPC with a specified CIDR block.
 2. **Subnet Design**:
@@ -34,11 +34,11 @@ This was my **first** experience learning about **VPCs** and designing one. I ha
 6. **Documentation**:
     - Provide an architecture diagram and explain the design choices.
 
-# 2 - Architecture Design
+## 2 - Architecture Design
 
-![](/portfolio/projects/AWS_VPC_Architecture.png)
+![](/portfolio/projects/cea-design-vpc/AWS_VPC_Architecture.png)
 
-## Components
+### Components
 
 - **Region**: The architecture is deployed in a single AWS Region: `eu-west-3` (Paris).
 - **VPC**: A single VPC containing all resources across two Availability Zones (AZs).
@@ -47,7 +47,7 @@ This was my **first** experience learning about **VPCs** and designing one. I ha
 - **Private Subnets**: 4 subnets (2 per AZ) isolated from direct Internet access for application servers and databases.
 - **Internet Gateway (IGW)**: A single Internet Gateway attached to the VPC to provide Internet connectivity to the public subnets.
 
-## Network
+### Network
 
 I selected a large CIDR block for the VPC: `10.0.0.0/16`. This provides a substantial number of IP addresses (65,534 usable addresses) to accommodate current and potential future needs. Although the theoretical maximum is 65,536 addresses, AWS reserves the first four and the last IP addresses in each subnet, as documented [here](https://docs.aws.amazon.com/vpc/latest/userguide/subnet-sizing.html):
 
@@ -71,7 +71,7 @@ Given the architecture requirements, we need six subnets, which I have allocated
 Each `/24` subnet provides 251 usable IP addresses (256 total minus the 5 reserved by AWS). This design uses a large range to facilitate scalability and operational simplicity, though in practice, smaller subnets would suffice for many use cases.
 
 
-## Route Tables
+### Route Tables
 
 The routing setup is straightforward:
 
@@ -96,11 +96,11 @@ The `0.0.0.0/0` route is a catch-all route, directing traffic to the specified t
 | ----------- | ------ |
 | 10.0.0.0/16 | Local  |
 
-## High Availability
+### High Availability
 
 Our architecture is designed for resilience and high availability by distributing resources across two Availability Zones (AZs). If one AZ experiences a failure, the other AZ can continue to handle traffic seamlessly, ensuring uninterrupted service. While the architecture could be extended to span multiple regions for even greater fault tolerance, this might be excessive for a basic application of this scope.
 
-## Security
+### Security
 
 Security is enforced through the following measures:
 
@@ -112,6 +112,6 @@ Security is enforced through the following measures:
 
 By combining private subnets, NAT Gateways, and tightly controlled security groups, we maintain strict control over network traffic, thereby enhancing the security posture of the application and database.
 
-# 3 - Conclusion
+## 3 - Conclusion
 
 This architecture leverages **AWS** **best practices** to ensure a **scalable**, **highly available**, and **secure** environment for the web application. The design not only meets the current requirements but also provides **flexibility** for **future** growth.

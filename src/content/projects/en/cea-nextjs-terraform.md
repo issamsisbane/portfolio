@@ -3,7 +3,7 @@ title: "Deploy a Next-Js Application using Terraform"
 description: "This project aims to deploy a Next-Js application using Terraform, S3 & AWS CloudFront."
 lang: "en"
 pubDate: "Sept 27 2024"
-heroImage: "/portfolio/projects/cloudfront-terraform.drawio.png"
+heroImage: "/portfolio/projects/cea-nextjs-terraform/cloudfront-terraform.drawio.png"
 badge: "PERSONAL"
 tags: ["Cloud", "AWS", "NextJs", "Terraform", "Cloud Engineer Academy"]
 ---
@@ -19,9 +19,9 @@ tags: ["Cloud", "AWS", "NextJs", "Terraform", "Cloud Engineer Academy"]
 
 ---
 
-# 1 - Requirements
+## 1 - Requirements
 
-## Scenario Overview
+### Scenario Overview
 
 **Client:** James Smith, a freelance web designer
 
@@ -33,7 +33,7 @@ tags: ["Cloud", "AWS", "NextJs", "Terraform", "Cloud Engineer Academy"]
 
 ---
 
-## Problem Statement
+### Problem Statement
 
 James needs his portfolio website to be:
 
@@ -46,7 +46,7 @@ Given these requirements, deploying the website using AWS services such as S3 fo
 
 ---
 
-## Project Outcome
+### Project Outcome
 
 By the end of this project, we should have:
 
@@ -61,11 +61,11 @@ By the end of this project, we should have:
 **![](https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/site/2148043546/products/d6c6af7-3646-036-7b37-136cd2828ff_Screenshot_2024-05-30_at_10.10.53.png)
 
 We would only use the template example from nextJS to simplify but we could use any static website.
-# 2 - S3 & Cloudfront
+## 2 - S3 & Cloudfront
 
 Using **Amazon CloudFront** with **Amazon S3** allows you to set up a **Content Delivery Network (CDN)** that improves the **performance**, **security**, and **scalability** of your website or application. By delivering content from servers located closer to the user, CloudFront can significantly reduce latency and improve the speed at which data is delivered. I never used a CDN before, I read the documentation about how it works wit S3. It's pretty simple. 
 
-![[cloudform_oai_s3.png]]
+![](/portfolio/projects/cea-nextjs-terraform/cloudform_oai_s3.png)
 
 The diagram above outlines the relationship between the S3 bucket, CloudFront, and OAI. Here's how the components fit together:
 
@@ -86,10 +86,11 @@ The diagram above outlines the relationship between the S3 bucket, CloudFront, a
     - You need to configure an **S3 bucket policy** to explicitly allow CloudFront (via the OAI) to access the content in your S3 bucket.
     - This restricts public access to the bucket and allows only requests coming from the CloudFront distribution.
 
-We have our cloudfront distribution configure with our S3 bucket as origin. We only want people to access our index.html file in our bucket only from CloudFront. So we use an OAI. The OAI allow S3 to indentify our cloudfront distribution. We need to create a bucket policies to allow access to the bucket. What we did earlier wasn't really best practice because our bucket is accessible from anywhere by anybody.
 ## 3. Deployement
 
 You can find all the project [here](https://github.com/IssamSisbane/terraform-portfolio-project/tree/main/terraform).
+
+### Step 1 : Public Access
 
 For this project, I first allow public access by anyone from anywhere.
 
@@ -230,6 +231,10 @@ resource "aws_cloudfront_distribution" "portfolio_is_cloudfront" {
 
 }
 ```
+
+### Step 2 : Allowing access from CloudFront only
+
+We have our cloudfront distribution configure with our S3 bucket as origin. We only want people to access our index.html file in our bucket only from CloudFront. So we use an OAI. The OAI allow S3 to indentify our cloudfront distribution. We need to create a bucket policy to allow access to the bucket. What we did earlier wasn't really best practice because our bucket is accessible from anywhere by anybody.
 
 Then I restrict the access. To access the bucket files we need to pass by our CloudFront CDN.
 
@@ -413,6 +418,7 @@ resource "aws_cloudfront_distribution" "portfolio_is_cloudfront" {
 }
 ```
 
+### Step 3 : Build & Site Upload
 We need to apply the configuration using Terraform. CloudFront can take some time to be created. Then we just to need to build our next-js application using : 
 
 ```sh
@@ -423,9 +429,9 @@ We need to copy all the content in the `out` folder created to our bucket.
 
 Finally, We can confirm that only cloudfront can access s3 files.
 
-![](/portfolio/projects/nextjs_cloudfront_browser_screenshot.png)
+![](/portfolio/projects/cea-nextjs-terraform/nextjs_cloudfront_browser_screenshot.png)
 
-# Conclusion | Best practices
+## Conclusion | Best practices
 
 Write name between quotes, use underscore instead of dash and do not include resource type in the resource name :
 
