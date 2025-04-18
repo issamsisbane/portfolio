@@ -1,0 +1,49 @@
+---
+import { type CollectionEntry, getCollection } from "astro:content";
+import { type BlogSchema } from "../../../content/config";
+import PostLayout from "../../../layouts/PostLayout.astro";
+import createSlug from "../../../lib/createSlug";
+
+const { lang, slug } = Astro.params;
+
+export async function getStaticPaths() {
+  const postEntries = await getCollection("blog");
+
+  // Liste des langues supportées
+  const langs = ["fr", "en"];
+
+  return langs.flatMap((lang) =>
+    postEntries
+      .filter((entry) => entry.data.lang === lang)               // filtre par langue
+      .map((entry) => ({
+        params: {
+          lang: lang,                                            // /fr/projects/mon-projet
+          slug: createSlug(entry.data.title, entry.slug),
+        },
+        props: { entry },                                     // on passe entry en prop
+      }))
+  );
+}
+
+interface Props {
+  entry: CollectionEntry<"blog">;
+}
+
+const { entry } = Astro.props;
+const post: BlogSchema = entry.data;
+const { Content } = await entry.render();
+---
+
+<PostLayout
+  title={post.title}
+  description={post.description}
+  pubDate={post.pubDate}
+  heroImage={post.heroImage}
+  updatedDate={post.updatedDate}
+  badge={post.badge}
+  tags={post.tags}
+  lang={lang}
+  sideBarActiveItemID="blog"
+>
+  <Content />
+</PostLayout>

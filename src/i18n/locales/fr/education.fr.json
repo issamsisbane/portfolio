@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Ecole d'ingénieur en Informatique",
+    "subtitle": "De Septembre 2021 à Septembre 2024 à Polytech Lyon, France",
+    "image_link": "polytech_lyon_logo",
+    "image_alt": "Polytech Lyon logo",
+    "content": [
+      "Au cours de mon séjour à Polytech Lyon, j'ai été exposé à un programme diversifié et rigoureux couvrant un large éventail de sujets, chacun contribuant à ma compréhension approfondie de l'informatique et de l'ingénierie.",
+      "Dans le domaine de la <b>Data Science</b>, j'ai exploré des sujets avancés tels que le Big Data, avec un accent particulier sur les techniques d'apprentissage automatique. Grâce à des projets pratiques et à des études théoriques, j'ai acquis des compétences dans l'analyse de grands ensembles de données et dans l'extraction d'informations significatives pour éclairer les processus décisionnels.",
+      "J'ai suivi des cours sur les <b>systèmes d'information</b>, qui m'ont fourni de précieuses connaissances sur la conception et la gestion de systèmes d'information complexes dans des environnements urbains. Cela impliquait de comprendre l'intégration de différentes technologies et sources de données pour soutenir les initiatives de planification et de développement urbains.",
+      "Dans le domaine de la <b>gestion de projet</b>, j'ai acquis des compétences et des techniques essentielles pour planifier, exécuter et surveiller efficacement des projets de la conception à l'achèvement. Cela comprenait des aspects tels que la planification de projet, la gestion des risques et la communication avec les parties prenantes.",
+      "Des cours d'<b>algorithmique</b>, de <b>théorie des graphes</b> et d'<b>optimisation discrète</b> m'ont fourni une boîte à outils diversifiée de <b>techniques de résolution de problèmes</b>. De la création d'algorithmes efficaces à la modélisation et à la résolution de problèmes d'optimisation complexes, ces cours ont renforcé mes compétences analytiques et de réflexion critique. J'ai également reçu une formation spécialisée sur les techniques d'optimisation linéaire, me permettant de résoudre des problèmes complexes en trouvant de bonnes solutions sans nécessairement trouver la solution optimale, en utilisant des heuristiques.",
+      "Tout au long de mes études, j'ai participé activement à des <b>projets de groupe</b>, où j'ai eu l'occasion d'appliquer mes connaissances et mes compétences à des scénarios réels. Ces projets portaient souvent sur des technologies émergentes telles que le <b>développement mobile et web</b>, me permettant d'acquérir une expérience pratique dans la conception et la mise en œuvre de solutions logicielles pour répondre à des besoins et des défis spécifiques."
+    ]
+  },
+  {
+    "title": "Diplôme Universitaire Technologique (DUT) Informatique",
+    "subtitle": "De Septembre 2019 à Septembre 2021 à IUT Lyon 1, France",
+    "image_link": "iut_logo",
+    "image_alt": "IUT Lyon 1 logo",
+    "content": [
+      "J'ai démarré mon parcours académique dans le supérieur en informatique à Lyon 1, où j'ai suivi un programme intensif axé sur les fondamentaux de l'informatique.",
+      "Pendant mes études à l'IUT, j'ai acquis une solide compréhension des <b>concepts de base de programmation</b>, des <b>bases de données</b>, des <b>réseaux informatiques</b> et d'autres domaines clés de l'informatique, mais pas seulement. En effet, j'ai également suivi des cours sur la finance, le droit et la gestion de projet.",
+      "De plus, j'ai eu l'opportunité de participer à des projets pratiques qui m'ont permis d'appliquer mes connaissances théoriques à des situations <b>réelles</b>, renforçant ainsi mes <b>compétences techniques</b> et mon <b>expérience pratique</b>."
+    ]
+  }
+]

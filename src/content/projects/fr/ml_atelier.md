@@ -3,7 +3,7 @@ title: "Machine Learning Atelier"
 description: "Ce projet regroupe des travaux que j'ai pu réaliser dans le cadre de mes cours afin de me familiariser avec le Machine Learning et les méthodes d'apprentissage."
 lang: "fr"
 pubDate: "Apr 9 2024"
-heroImage: "/portfolio/ml.png"
+heroImage: "/portfolio/projects/ml_atelier/ml.png"
 badge: "SCOLAIRE"
 tags: ["ML", "Jupyter", "Python", "Notebook"]
 ---

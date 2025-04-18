@@ -3,7 +3,7 @@ title: "Clippy"
 description: "Une plateforme web permettant le partage d'informations de manière éphémère, suivant le modèle de Pastebin."
 lang: "fr"
 pubDate: "Feb 15 2024"
-heroImage: "/portfolio/clippy.jpg"
+heroImage: "/portfolio/projects/clippy/clippy.jpg"
 badge: "PERSONNEL"
 tags: ["Cloud", "Azure", "Nuxt", "CosmosDB", "Typescript"]
 selected: true
@@ -41,7 +41,7 @@ Frontend :
 * `Typescript`
 
 ## **Architecture**
-![clippy-architecture](/portfolio/clippy-architecture.webp)
+![clippy-architecture](/portfolio/projects/clippy/clippy-architecture.webp)
 
 
 ## **Résultats**

@@ -3,7 +3,7 @@ title: "Mawaqit Discord Notify"
 description: "A Discord bot for sending notifications at specific times of the day obtained by scraping a website."
 lang: "en"
 pubDate: "Apr 8 2024"
-heroImage: "/portfolio/mawaqit.webp"
+heroImage: "/portfolio/projects/mawaqit_discord/mawaqit.webp"
 badge: "PERSONAL"
 tags: ["Cloud", "Azure", "Cron", "Docker", "Javascript", "Scraping"]
 ---
@@ -52,7 +52,7 @@ So, I chose to use simple containers using Azure Container Instance. I thought I
 
 ## **Architecture**
 
-![mawaqit_discord_architecture.drawio.png](/portfolio/mawaqit_discord_architecture.png)
+![mawaqit_discord_architecture.drawio.png](/portfolio/projects/mawaqit_discord/mawaqit_discord_architecture.png)
 
 ## **Results**
 
