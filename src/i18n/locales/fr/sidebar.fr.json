@@ -1,17 +1,17 @@
 [
     {
       "id": "home",
-      "label": "Accueil",
+      "label": "🏠 | Accueil",
       "href": "/portfolio/fr"
     },
     {
       "id": "projects",
-      "label": "Projets",
+      "label": "🏗️| Projets",
       "href": "/portfolio/fr/projects/"
     },
     {
       "id": "blog",
-      "label": "Blog",
+      "label": "📝 | Blog",
       "href": "/portfolio/fr/blog/"
     }
   ]
