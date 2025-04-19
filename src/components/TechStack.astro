@@ -11,29 +11,18 @@ const pythonLogo = "/portfolio/logos/python_logo.svg";
 const typescriptLogo = "/portfolio/logos/typescript_logo.svg";
 ---
 
-<div class="flex flex-col w-full lg:flex-row">
-    <div
-        class="grid flex-grow h-50 card bg-base-200 rounded-box place-items-center w-20"
-    >
-        <ul class="list-disc md:columns-2 columns-2 mx-6"></ul>
-    </div>
-
-    <div class="divider lg:divider-horizontal w-50"></div>
-
-    <div
-        class="grid flex-grow h-50 card bg-base-200 rounded-box place-items-center w-20"
-    >
-    </div>
-</div>
-
 <ul class="list-disc md:columns-4 columns-4 mx-6">
-    <Image
+    <li class="flex justify-center">
+        <Image
         title="Azure"
         src={azureLogo}
         alt="azure_logo"
         height="100"
         width="100"
-    />
+        />
+    </li>
+    
+    <li class="flex justify-center">
     <Image
         title="Kubernetes"
         src={kubernetesLogo}
@@ -41,6 +30,9 @@ const typescriptLogo = "/portfolio/logos/typescript_logo.svg";
         height="100"
         width="100"
     />
+    </li>
+
+    <li class="flex justify-center">
     <Image
         title="Docker"
         src={dockerLogo}
@@ -48,6 +40,9 @@ const typescriptLogo = "/portfolio/logos/typescript_logo.svg";
         height="115"
         width="115"
     />
+    </li>
+
+    <li class="flex justify-center">
     <Image
         title="Postgres"
         src={postgresLogo}
@@ -55,6 +50,9 @@ const typescriptLogo = "/portfolio/logos/typescript_logo.svg";
         height="95"
         width="95"
     />
+    </li>
+
+    <li class="flex justify-center">
     <Image
         title="Java"
         src={javaLogo}
@@ -62,7 +60,19 @@ const typescriptLogo = "/portfolio/logos/typescript_logo.svg";
         height="110"
         width="110"
     />
-    <Image title="Vue" src={vueLogo} alt="vue_logo" height="110" width="110" />
+    </li>
+
+    <li class="flex justify-center">
+    <Image 
+        title="Vue" 
+        src={vueLogo} 
+        alt="vue_logo" 
+        height="110" 
+        width="110" 
+    />
+    </li>
+
+    <li class="flex justify-center">
     <Image
         title="Python"
         src={pythonLogo}
@@ -70,6 +80,9 @@ const typescriptLogo = "/portfolio/logos/typescript_logo.svg";
         height="100"
         width="100"
     />
+    </li>
+
+    <li class="flex justify-center">
     <Image
         title="Typescript"
         src={typescriptLogo}
@@ -77,4 +90,5 @@ const typescriptLogo = "/portfolio/logos/typescript_logo.svg";
         height="105"
         width="105"
     />
+    </li>
 </ul>
