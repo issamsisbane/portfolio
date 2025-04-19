@@ -59,11 +59,11 @@ export async function getStaticPaths() {
 
   <div>
     <div class="text-3xl w-full font-bold mb-2">
-      {labels.projectsTitle} {"</>"}
+      {labels.projectsTitle} {"<🏗️>"}
     </div>
   </div>
 
-  {last_projects.map((project) => (
+  {last_projects.map((project, index) => (
     <>
       <HorizontalCard
         title={project.data.title}
@@ -75,7 +75,9 @@ export async function getStaticPaths() {
         lang={lang}
         badge={project.data.badge}
       />
-      <div class="divider my-0" />
+      {index !== last_projects.length - 1 && (
+        <div class="divider my-0" />
+      )}
     </>
   ))}
 
@@ -91,10 +93,10 @@ export async function getStaticPaths() {
   <Certifications />
 
   <div>
-    <div class="text-3xl w-full font-bold mb-5 mt-10">{labels.postsTitle}</div>
+    <div class="text-3xl w-full font-bold mb-5 mt-10">{labels.postsTitle} {"<📝>"}</div>
   </div>
 
-  {last_posts.map((post) => (
+  {last_posts.map((post, index) => (
     <>
       <HorizontalCard
         title={post.data.title}
@@ -106,7 +108,9 @@ export async function getStaticPaths() {
         lang={lang}
         badge={post.data.badge}
       />
-      <div class="divider my-0" />
+      {index !== last_projects.length - 1 && (
+        <div class="divider my-0" />
+      )}
     </>
   ))}
 

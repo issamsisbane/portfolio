@@ -41,7 +41,7 @@ export async function getStaticPaths({ paginate }) {
     </div>
   ) : (
     <ul>
-      {page.data.map((post) => (
+      {page.data.map((post, index) => (
         <>
           <HorizontalCard
             title={post.data.title}
@@ -54,7 +54,9 @@ export async function getStaticPaths({ paginate }) {
             date={post.data.pubDate}
             lang={lang}
           />
-          <div class="divider my-0" />
+          {index !== page.data.length - 1 && (
+            <div class="divider my-0" />
+          )} 
         </>
       ))}
     </ul>
