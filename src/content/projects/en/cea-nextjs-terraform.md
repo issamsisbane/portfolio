@@ -6,6 +6,7 @@ pubDate: "Sept 27 2024"
 heroImage: "/portfolio/projects/cea-nextjs-terraform/cloudfront-terraform.drawio.png"
 badge: "PERSONAL"
 tags: ["Cloud", "AWS", "NextJs", "Terraform", "Cloud Engineer Academy"]
+selected: true
 ---
 
 *This project gave me the opportunity to deploy a static website using object storage and a CDN for the first time, providing valuable hands-on experience. It was particularly engaging to work on a project that closely simulated real-world scenarios. This project was part of the Cloud Engineer Academy courses, further deepening my understanding of cloud technologies.*

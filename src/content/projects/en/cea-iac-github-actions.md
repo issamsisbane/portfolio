@@ -6,6 +6,7 @@ pubDate: "Oct 05 2024"
 heroImage: "/portfolio/projects/cea-iac-github-actions/actions.png"
 badge: "PERSONAL"
 tags: ["Cloud", "DevOps", "GitHub Actions", "AWS", "CICD", "Cloud Engineer Academy"]
+selected: true
 ---
 
 *This project allow me to learn a lot. Indeed, it was interesting to see how we can validate IaC before merging to the main branch. I never thought of this way before. The project code can be found here.*

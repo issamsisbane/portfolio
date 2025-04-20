@@ -1,5 +1,5 @@
 ---
-title: "KMS"
+title: "Build a Key Management System"
 description: "This project aimed to secure cloud and IoT data while preserving their confidentiality by designing a KMS solution."
 lang: "en"
 pubDate: "Mar 18 2024"

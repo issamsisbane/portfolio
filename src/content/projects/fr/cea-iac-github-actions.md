@@ -6,6 +6,7 @@ pubDate: "Oct 05 2024"
 heroImage: "/portfolio/projects/cea-iac-github-actions/actions.png"
 badge: "PERSONNEL"
 tags: ["Cloud", "DevOps", "GitHub Actions", "AWS", "CICD", "Cloud Engineer Academy"]
+selected: true
 ---
 *Ce projet m’a énormément appris. C’était super intéressant de voir qu’on pouvait valider du code IaC **avant** de le fusionner dans la branche main. Franchement, je n’y avais jamais pensé avant. Le code du projet est dispo ici.*
 
