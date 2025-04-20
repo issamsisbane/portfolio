@@ -4,15 +4,15 @@ import { Image } from "astro:assets";
 const azureLogo = "/portfolio/logos/azure_logo.svg";
 const kubernetesLogo = "/portfolio/logos/kubernetes_logo.svg";
 const dockerLogo = "/portfolio/logos/docker_logo.svg";
-const postgresLogo = "/portfolio/logos/postgres_logo.svg";
-const javaLogo = "/portfolio/logos/java_logo.svg";
-const vueLogo = "/portfolio/logos/vue_logo.svg";
-const pythonLogo = "/portfolio/logos/python_logo.svg";
-const typescriptLogo = "/portfolio/logos/typescript_logo.svg";
+const gitlabLogo = "/portfolio/logos/gitlab_logo.svg";
+const ansibleLogo = "/portfolio/logos/ansible_logo.png";
+const terraformLogo = "/portfolio/logos/terraform_logo.svg";
+const pythonLogo = "/portfolio/logos/python_logo.png";
+const bashLogo = "/portfolio/logos/bash_logo.png";
 ---
 
 <ul class="list-disc md:columns-4 columns-4 mx-6">
-    <li class="flex justify-center">
+    <li class="flex sm:w-18 sm:h-18 md:w-32 md:h-32 items-center justify-center">
         <Image
         title="Azure"
         src={azureLogo}
@@ -22,57 +22,57 @@ const typescriptLogo = "/portfolio/logos/typescript_logo.svg";
         />
     </li>
     
-    <li class="flex justify-center">
+    <li class="flex sm:w-18 sm:h-18 md:w-32 md:h-32 items-center justify-center">
     <Image
         title="Kubernetes"
         src={kubernetesLogo}
         alt="kub_logo"
-        height="100"
-        width="100"
-    />
-    </li>
-
-    <li class="flex justify-center">
-    <Image
-        title="Docker"
-        src={dockerLogo}
-        alt="docker_logo"
-        height="115"
-        width="115"
-    />
-    </li>
-
-    <li class="flex justify-center">
-    <Image
-        title="Postgres"
-        src={postgresLogo}
-        alt="postgres_logo"
-        height="95"
-        width="95"
-    />
-    </li>
-
-    <li class="flex justify-center">
-    <Image
-        title="Java"
-        src={javaLogo}
-        alt="java_logo"
         height="110"
         width="110"
     />
     </li>
 
-    <li class="flex justify-center">
-    <Image 
-        title="Vue" 
-        src={vueLogo} 
-        alt="vue_logo" 
-        height="110" 
-        width="110" 
+    <li class="flex sm:w-18 sm:h-18 md:w-32 md:h-32 items-center justify-center">
+    <Image
+        title="Docker"
+        src={dockerLogo}
+        alt="docker_logo"
+        height="130"
+        width="130"
     />
     </li>
 
-    <li class="flex justify-center">
+    <li class="flex sm:w-18 sm:h-18 md:w-32 md:h-32 items-center justify-center">
+    <Image
+        title="Gitlab"
+        src={gitlabLogo}
+        alt="gitlab_logo"
+        height="95"
+        width="95"
+    />
+    </li>
+
+    <li class="flex sm:w-18 sm:h-18 md:w-32 md:h-32 items-center justify-center">
+    <Image
+        title="Ansible"
+        src={ansibleLogo}
+        alt="ansible_logo"
+        height="110"
+        width="110"
+    />
+    </li>
+
+    <li class="flex sm:w-18 sm:h-18 md:w-32 md:h-32 items-center justify-center">
+    <Image 
+        title="Terraform" 
+        src={terraformLogo} 
+        alt="terraform_logo" justify-cente
+        height="90" 
+        width="90" 
+    />
+    </li>
+
+    <li class="flex sm:w-18 sm:h-18 md:w-32 md:h-32 items-center justify-center">
     <Image
         title="Python"
         src={pythonLogo}
@@ -82,11 +82,11 @@ const typescriptLogo = "/portfolio/logos/typescript_logo.svg";
     />
     </li>
 
-    <li class="flex justify-center">
+    <li class="flex sm:w-18 sm:h-18 md:w-32 md:h-32 items-center justify-center">
     <Image
-        title="Typescript"
-        src={typescriptLogo}
-        alt="ts_logo"
+        title="Bash"
+        src={bashLogo}
+        alt="bash_logo"
         height="105"
         width="105"
     />
