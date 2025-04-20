@@ -1,5 +1,24 @@
 [
     {
+      "title": "Ingénieur Cloud & DevOps",
+      "subtitle": "Depuis Octobre 2024 à aujourd'hui, Sophia Antipolis, France",
+      "image_link": "atos_logo",
+      "image_alt": "Atos logo",
+      "content": [
+        "- <b>IAC</b> (Infrastructure as Code) avec Terraform et Ansible pour <b>mettre en place</b> des envrionnements et les <b>configurer</b>.",
+        "- <b>CI/CD</b> avec GitLab pour automatiser le déploiement des applications et création de pipelines et de composants pour <b>automatiser</b> les déploiements.",
+        "- Cloud avec Outscale pour <b>déployer</b> des applications et <b>gérer</b> les ressources cloud.",
+        "- Conteneurs avec podman, Kubernetes & Openshift pour <b>déployer</b> des applications et <b>gérer</b> les conteneurs."
+      ],
+      "stack": [
+        "Terraform",
+        "Ansible",
+        "GitLab",
+        "Kubernetes",
+        "Bash"
+      ]
+    },
+    {
       "title": "Mobilité Internationale USA (Stage)",
       "subtitle": "D'Avril 2024 à Mai 2024 à Thuasne USA, Kansas City, USA",
       "image_link": "thuasne_logo",
