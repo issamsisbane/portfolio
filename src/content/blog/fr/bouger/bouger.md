@@ -9,6 +9,6 @@ pubDate: "Apr 24 2024"
 
 bonjour ceci est un test depuis un fichier !
 
-un test
+un teste
 ![](./portfolio/public/blog/bougerAMI_image_id_copy.png)
 ![](./portfolio/public/blog/bougerAMI_image_id_copy_2.png)
