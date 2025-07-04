@@ -11,4 +11,4 @@ Bonjour, ceci est un test à partir d'un fichier, oui !
 
 un test
 
-![](./portfolio/public/projects/move/After_Kubernetes.drawio.png)
+![](/portfolio/public/projects/move/After_Kubernetes.drawio.png)

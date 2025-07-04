@@ -10,4 +10,4 @@ Hello this is a test from an file yes
 
 a tesit
 
-![](./portfolio/public/projects/move/After_Kubernetes.drawio.png)
+![](/portfolio/public/projects/move/After_Kubernetes.drawio.png)
