@@ -6,8 +6,8 @@ pubDate: "Apr 24 2024"
 ---
 
 # THIS IS IS A TEST
-Hello this is a test from an file yes !
+Hello this is a test from an file yes 
 
 a tesit
 
-![](./portfolio/public/move/After_Kubernetes.drawio.png)
+![](./portfolio/public/projects/move/After_Kubernetes.drawio.png)
