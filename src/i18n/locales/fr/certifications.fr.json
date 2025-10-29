@@ -3,6 +3,10 @@
       "title": "Cloud",
       "items": [
         {
+          "label": "<u><b>CKA</b></u> Certified Kubernetes Administrator - 2025",
+          "link": "https://www.credly.com/badges/0cbcbdda-468f-40c1-91a7-465114ff60cb/public_url"
+        },
+        {
           "label": "<u><b>AZ-204</b></u> Azure Developer Associate - 2024",
           "link": "https://learn.microsoft.com/api/credentials/share/fr-fr/IssamSISBANE-4752/9BC1C0080C19DD38?sharingId=B40C0FD0BE50D583"
         },
