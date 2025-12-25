@@ -8,7 +8,7 @@ module.exports = {
 	daisyui: {
 		themes: [
 			{
-				mytheme: {
+				light: {
 					"primary": "#007eff",
 					"secondary": "#377cfb",
 					"secondary-content": "#ffffff",
@@ -16,7 +16,18 @@ module.exports = {
 					"neutral": "#005dff",
 					"base-100": "#ffffff",
 				}
-			}
+			},
+			{
+                dark: {
+                    "primary": "#007eff",
+                    "secondary": "#377cfb",
+                    "secondary-content": "#ffffff",
+                    "accent": "#007eff",
+                    "neutral": "#005dff",
+                    "base-100": "#1f2937",
+                    "base-content": "#ffffff",
+                }
+            }
 		],
 		darkTheme: "dark", // name of one of the included themes for dark mode
 		logs: false, // Shows info about daisyUI version and used config in the console when building your CSS

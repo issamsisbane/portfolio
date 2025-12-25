@@ -2,6 +2,7 @@
 import SideBarFooter from "./SideBarFooter.astro";
 import SideBarMenu from "./SideBarMenu.astro";
 import LanguagePicker from "./LanguagePicker.vue";
+import ThemeIcon from "./ThemeIcon.astro";
 const { sideBarActiveItemID } = Astro.props;
 ---
 
@@ -22,6 +23,7 @@ const { sideBarActiveItemID } = Astro.props;
       </a>
     </div>
     <SideBarMenu sideBarActiveItemID={sideBarActiveItemID} />
+    <ThemeIcon />
     <LanguagePicker client:only="vue" />
     <SideBarFooter />
   </aside>

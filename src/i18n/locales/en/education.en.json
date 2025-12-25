@@ -47,25 +47,25 @@
       "content": [
         "During my studies at <b>IUT Informatique</b>, I followed a comprehensive curriculum that provided me with a strong foundation in computer science and related disciplines.",
         
-        "</br><b>Programming & Development</b>",
+        "</br><b class='text-primary'>Programming & Development</b>",
         "I gained experience with <b>C</b>, <b>Java</b>, and <b>Python</b>, explored <b>Object-Oriented Programming</b>, and developed skills in <b>Web technologies</b> such as HTML, CSS, and JavaScript. I also practiced <b>Linux/Bash scripting</b> for system administration.",
         
-        "</br><b>Algorithms & Mathematics</b>",
+        "</br><b class='text-primary'>Algorithms & Mathematics</b>",
         "Courses in <b>Algorithms & Mathematics</b> introduced me to <b>algorithm design</b>, <b>graph theory</b> (including Dijkstra’s algorithm), <b>sets</b>, and <b>statistics</b>, which enhanced my analytical and problem-solving abilities.",
         
-        "</br><b>Databases</b>",
+        "</br><b class='text-primary'>Databases</b>",
         "In the area of <b>Databases</b>, I studied <b>SQL</b>, focusing on complex queries, table creation, and relational schema design, which strengthened my capacity to manage and structure data effectively.",
         
-        "</br><b>Network & Systems</b>",
+        "</br><b class='text-primary'>Network & Systems</b>",
         "I learned about <b>switches</b>, <b>routers</b>, and key <b>protocols</b> such as HTTP, DNS, and ARP, while also acquiring skills in operating system configuration and management (Linux & Windows).",
         
-        "</br><b>Management & Organisation</b>",
+        "</br><b class='text-primary'>Management & Organisation</b>",
         "I developed knowledge in <b>project management</b> methodologies such as Agile and Waterfall, studied <b>accounting fundamentals</b> including income statements, and explored <b>IT Law</b> to understand the legal aspects of technology.",
 
-        "</br><b>Languages & Communication</b>",
+        "</br><b class='text-primary'>Languages & Communication</b>",
         "Courses in <b>Languages & Communication</b> allowed me to strengthen my <b>English skills</b>, improving my ability to communicate in professional contexts.",
 
-        "</br><b>Projects</b>",
+        "</br><b class='text-primary'>Projects</b>",
         "Throughout my studies, I actively participated in <b>hands-on projects</b>, applying theoretical knowledge to <b>real-world scenarios</b>. These experiences reinforced both my technical expertise and my organizational skills."
     ]
     }

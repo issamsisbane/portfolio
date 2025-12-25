@@ -28,6 +28,10 @@ const {
       ogType={ogType}
     />
     {TRANSITION_API && <ViewTransitions />}
+    <script is:inline>
+      const theme = localStorage.getItem('theme') || 'light';
+      document.documentElement.setAttribute('data-theme', theme);
+    </script>
   </head>
   <body>
     <div class="bg-base-100 drawer lg:drawer-open">
