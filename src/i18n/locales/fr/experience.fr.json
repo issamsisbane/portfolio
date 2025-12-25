@@ -5,17 +5,45 @@
       "image_link": "atos_logo",
       "image_alt": "Atos logo",
       "content": [
-        "- <b>IAC</b> (Infrastructure as Code) avec Terraform et Ansible pour <b>mettre en place</b> des envrionnements et les <b>configurer</b>.",
-        "- <b>CI/CD</b> avec GitLab pour automatiser le déploiement des applications et création de pipelines et de composants pour <b>automatiser</b> les déploiements.",
-        "- Cloud avec Outscale pour <b>déployer</b> des applications et <b>gérer</b> les ressources cloud.",
-        "- Conteneurs avec podman, Kubernetes & Openshift pour <b>déployer</b> des applications et <b>gérer</b> les conteneurs."
+        "Membre d’une équipe de <b>Platform Engineering</b> en charge de <b>l’architecture</b>, du <b>déploiement</b> et de la <b>migration</b> d’une <b>plateforme DevOps à l’échelle entreprise</b>.",
+        "</br><b class='text-primary'>1 - Migration & Modernisation OpenShift</b>",
+        "<ul class='list-disc list-outside ml-5'>",
+        "<li>Contribution à la <b>transition technique</b> d’OpenShift Container Platform 3 vers 4 avec une <b>refonte complète des pipelines CI/CD</b> (Jenkins → GitLab CI/CD).</li>",
+        "<li><b>Piloté la migration de Kustomize vers des Helm Charts standardisés</b> intégrant les conventions organisationnelles et les outils de la plateforme (PostgreSQL via CloudNativePG, secrets Vault, sauvegardes S3, autoscaling HPA).</li>", 
+        "<li>Mise en place de <b>conteneurs rootless</b> et de <b>politiques</b> Velero pour renforcer la <b>sécurité</b>.</li>",
+        "<li class='impact'><b>Impact :</b> migration de <b>70+ applications sans interruption de service</b>, <b>70% de réduction du temps de déploiement</b>, <b>20% de diminution de la surface d’attaque</b> et <b>100% d’adoption</b> des Helm Charts standardisés par toutes les équipes.</li>",
+        "</ul>",
+        "</br><b class='text-primary'>2 - Platform Engineering & Expérience Développeur</b>",
+        "<ul class='list-disc list-outside ml-5'>",
+        "<li>Participation à <b>l’architecture</b> et au <b>déploiement</b> d’une <b>plateforme CI/CD en self‑service</b> (GitLab CI/CD, ArgoCD, Nexus, Vault, OpenShift 4) pour <b>accélérer le time‑to‑market</b>.</li>", 
+        "<li>Création de <b>composants GitLab réutilisables</b> permettant aux développeurs de déployer en production sans expertise pipeline (build, test, lint, scan sécurité, SBOM, push registry).</li>", 
+        "<li><b>Automatisation Ansible</b> pour un provisionnement complet (création de dépôts GitLab, configuration Nexus, namespaces Kubernetes).</li>", 
+        "<li class=impact><b>Impact :</b> déploiement sur <b>6+ clusters</b> (prod, dev, staging), adoption par <b>30+ équipes</b>, <b>70% de réduction du temps de déploiement</b> (≈3 semaines → 2 jours) et <b>85% de réduction du temps d’onboarding</b>, avec <b>quasi 0% de downtime</b> durant la migration. Formation et accompagnement de <b>50+ développeurs</b> à l’usage de la plateforme.</li>",
+        "</ul>",
+        "</br><b class='text-primary'>3 - Déploiement Air‑Gap & Haute Sécurité</b>",
+        "<ul class='list-disc list-outside ml-5'>",
+        "<li>Déploiement complet de la plateforme sur un cluster OpenShift en mode <b>air‑gap</b> (sans accès Internet) avec <b>contraintes de sécurité maximales</b>.</li>", 
+        "<li>Configuration de registres miroirs, transfert hors‑ligne de <b>300+ images conteneurs</b> et adaptation des pipelines CI/CD pour un environnement déconnecté.</li>", 
+        "<li class=impact><b>Impact :</b> plateforme opérationnelle conservant <b>100% des fonctionnalités</b> en environnement haute sécurité, <b>documentation technique complète</b> (architecture, runbooks) et validation de conformité pour une <b>production sensible</b>.</li>",
+        "</ul>",
+        "</br><b class='text-primary'>4 - Contributions transverses</b>",
+        "<ul class='list-disc list-outside ml-5'>",
+        "<li><b>Infrastructure as Code</b> et <b>Provisioning</b> (Terraform/Ansible/Outscale).</li>", 
+        "<li><b>Optimisation des coûts</b> Cloud (<span class=impact><b>-20% de coûts</b> via l’automatisation de l’arrêt des VM hors horaires ouvrés</span>).</li>", 
+        "<li>Tableaux de <b>monitoring</b> par projet avec <b>alerting</b>.</li>",
+        "<li>Interconnexion <b>SSO interne</b>.</li>",
+        "</ul>"
       ],
       "stack": [
-        "Terraform",
-        "Ansible",
-        "GitLab",
         "Kubernetes",
-        "Bash"
+        "OpenShift",
+        "ArgoCD",
+        "Helm", 
+        "GitLab",
+        "Ansible",
+        "Nexus",
+        "HashiCorp Vault", 
+        "Terraform"
       ]
     },
     {
@@ -24,11 +52,19 @@
       "image_link": "thuasne_logo",
       "image_alt": "Thuasne logo",
       "content": [
-        "Durant mon stage aux <b>États-Unis</b>, j'ai eu l'opportunité de découvrir l'architecture IT actuelle de <b>Thuasne USA</b> et les enjeux et défis liés à la <b>migration</b> vers un <b>domaine commun</b> quand de petites entreprises se font racheter par une plus grandes.",
-        "Au cours de mon séjour, j'ai eu l'occasion de <b>former</b> des collaborateurs sur les technologies <b>Azure & IoT</b>. J'ai également travaillé avec des équipes de l'entreprise sur un potentiel projet d'équiper des chaussettes de capteurs <b>IoT</b> et de <b>transmission des données</b> vers le <b>Cloud Azure</b>.",
-        "En outre, j'ai travaillé sur un projet de <b>digitalisation de la ligne de production</b>, visant à remplacer les feuilles papier par des documents électroniques accessibles via SharePoint. J'ai <b>conçu</b> et <b>mis en place</b> une <b>architecture Azure</b> qui permet de rendre <b>dynamique</b> des QR codes. Ceci fut <b>indispensable</b> car les ordres de commandes et autres documents imprimés tous les jours <b>changent</b>. Or la nature d'un QR code est <b>immutable</b> puisqu'il est généré en fonction de ce qu'on lui associe. Ainsi, il fallait rendre les documents associés aux QR codes, <b>dynamiques</b>.",
-        "Enfin, j'ai pu fournir une <b>documentation détaillée</b> sur ce travail, son fonctionnement et comment le déployer. J'ai pu suivre et travailler avec mon collègue, Solution Architecte, et j'ai vu les enjeux liés à la <b>communication</b> avec les collaborateurs. Il est essentiel de comprendre les <b>besoins</b> de l'entreprise, de suivre les <b>processus</b> et de gérer les <b>résistances au changement</b>. J'ai compris que la <b>digitalisation</b> peut être un moyen de réduire les coûts et d'améliorer l'efficacité, mais il est également important de prendre en compte les besoins et les préférences des employés.",
-        "Ainsi, ce stage m'a permis de <b>développer</b> mes compétences en matière de technologie, de communication (notamment en anglais) et de collaboration, et j'en suis revenu avec une expérience enrichissante et des compétences renforcées."
+        "Mission internationale au sein d’une filiale américaine <b>récemment</b> acquise pour <b>l’évaluation technologique</b>, la <b>validation de POC</b> et la <b>formation Azure</b>.",
+        "</br><b class='text-primary'>1 - Digitalisation de la ligne de production</b>",
+        "<ul class='list-disc list-outside ml-5'>",
+        "<li><b>Conçu une solution cloud</b> pour éliminer les documents papier sur les lignes de production malgré la contrainte technique de <b>documents variables quotidiennement</b>.</li>",
+        "<li><b>Innovation</b> : architecture de QR codes <b>« statiques-dynamiques »</b> (Azure Functions + SharePoint) permettant <b>une impression unique</b> du code avec un contenu <b>modifiable dynamiquement</b> via un système de routage dynamique.</li>",
+        "<li class=impact><b>Impact</b> : <b>POC fonctionnel</b> démontré aux opérateurs, <b>documentation technique complète</b>, et business case validé avec <b>12k$/an d’économies</b> (<b>1 200+ impressions couleur/mois évitées</b>, <b>85% de réduction</b> du temps d’accès à l’information), permettant <b>l’approbation budgétaire</b> et la planification du déploiement par l’équipe locale.</li>",
+        "</ul>",
+        "</br><b class='text-primary'>2 - Formation & Transfert de connaissances</b>",
+        "<ul class='list-disc list-outside ml-5'>",
+        "<li><b>Mené une mission de transfert de connaissances et d’évaluation technologique</b> suite à l’acquisition de Knitrite sous la bannière Thuasne USA par le groupe français.</li>",
+        "<li>Animé des <b>ateliers Azure/IoT</b> (Digital Twin, IoT Hub, Serverless Functions...) afin d’aligner les équipes locales sur les <b>standards cloud du groupe</b>.</li>",
+        "<li class='impact'><b>Impact</b> : formé <b>une douzaine de collaborateurs</b> (IT, production, management), documenté les <b>écarts technologiques et organisationnels</b>, et fourni des <b>recommandations stratégiques</b> pour la migration vers <b>Azure Cloud</b>.</li>",
+        "</ul>"
       ],
       "stack": [
         "Azure",
@@ -43,18 +79,37 @@
       "image_link": "thuasne_logo",
       "image_alt": "Thuasne logo",
       "content": [
-        "Pendant mon apprentissage chez Thuasne, j'ai eu l'opportunité de travailler sur une large gamme de projets, dont beaucoup étaient liés à l'<b>IoT</b> (Internet des Objets) et fortement dépendant des <b>technologies cloud</b>. J'ai ainsi pu découvrir le cloud et forger une importante expérience avec Azure. Pour le déploiement d'applications, j'ai appris et utilisé Kubernetes et Docker, assurant des solutions <b>efficaces et évolutives</b>. J'ai également entrepris des tâches de <b>développement pur</b>, prenant une application existante et la migrant vers les dernières versions de Vue et Loopback. Mon travail s'est étendu à différents langages de programmation, dont Python, Java, PHP et JavaScript, démontrant ainsi ma <b>capacité d'adaptation et ma polyvalence</b> face à des piles technologiques diverses.",
-        "J'ai également travaillé sur un projet de développement d'une application utilisant <b>FHIR</b> (Fast Healthcare Interoperability Resources), ce qui impliquait la création d'une <b>API REST</b> pour gérer les données des patients. L'idée principale du projet était de créer une plateforme de bout en bout où les données des appareils IoT sont ingestées et intégrées au flux de travail du patient. Tout cela afin de rendre les données visibles sur le cloud par les médecins et les patients eux-mêmes. Ce projet a été particulièrement stimulant, car il m'a fallu apprendre beaucoup de choses, y compris <b>FHIR</b>, les <b>réglementations sur les données de santé</b>, les <b>bonnes pratiques cloud</b>, et la capacité à fournir un <b>code et une architecture de haute qualité</b>."
+        "Membre de l’équipe <b>R&D</b> pilotant la transformation <b>cloud</b> et <b>IoT</b> dans l’industrie des dispositifs <b>médicaux</b>, fournissant des <b>solutions de santé innovantes</b> sur Azure.",
+        "</br><b class='text-primary'>1 - Développement d’une plateforme Cloud-Native IoT Santé</b>",
+        "<ul class='list-disc list-outside ml-5'>",
+        "<li><b>Dirigé la migration et l’amélioration</b> d’une <b>plateforme cloud-native de bout en bout</b> sur Azure pour l’ingestion et la gestion de <b>données médicales IoT conformes FHIR</b>.</li>",
+        "<li><b>Migration d’un VPS vers une architecture Kubernetes (AKS)</b> orchestrant l’<b>intégration en temps réel</b> des données issues de dispositifs médicaux connectés vers un portail sécurisé patient/médecin conforme au <b>RGPD/HDS</b>, utilisant VueJS et Loopback.</li>",
+        "<li class=impact><b>Impact (encore en développement)</b> : plateforme pilote capable de gérer <b>8 000+ dispositifs IoT</b> avec <b>95% de disponibilité</b>, visant à réduire le temps de transmission des données vitales de <b>65%</b> et permettant un suivi digitalisé.</li>",
+        "</ul>",
+        "</br>",
+        "<b class='text-primary'>2 - Automatisation ML/OCR pour la digitalisation des formulaires de fabrication sur mesure</b>",
+        "<ul class='list-disc list-outside ml-5'>",
+        "<li><b>Conçu et déployé</b> une <b>solution cloud automatisée de digitalisation</b> utilisant <b>Azure Cognitive Services (OCR)</b> pour traiter des formulaires manuscrits de mesures orthopédiques.</li>",
+        "<li><b>Intégration</b> dans le système de production d’orthèses sur mesure via une <b>API REST</b> déployée sur <b>Kubernetes</b>.</li>",
+        "<li class=impact><b>Impact (Proof Of Concept)</b> : <b>250+ formulaires traités quotidiennement</b> avec <b>94% de précision</b>, réduisant le temps de saisie manuelle de <b>80%</b> et éliminant <b>85% des erreurs de transcription</b>, accélérant les délais de fabrication pour <b>15 000+ patients/an</b>.</li>",
+        "</ul>",
+        "</br><b class='text-primary'>3 - Réconciliation de données multi‑sources dans un catalogue produit unifié</b>",
+        "<ul class='list-disc list-outside ml-5'>",
+        "<li><b>Conçu un système de réconciliation de données multi‑sources en temps réel</b> (SQL Server, PostgreSQL, MongoDB) vers CosmosDB afin de créer la <b>première API unifiée des articles du groupe</b>.</li>",
+        "<li>Utilisation combinée de <b>Azure Durable Functions</b> et <b>Azure Data Factory</b> pour orchestrer la <b>synchronisation distribuée</b> de 3 bases de données hétérogènes à travers le groupe et ses filiales.</li>",
+        "<li class=impact><b>Impact</b> : catalogue unifié de <b>65 000+ références produits</b> avec une latence de synchronisation <b><20 min</b>, exposé via une <b>API REST</b> consommée par plusieurs systèmes métiers, réduisant les incohérences de données de <b>70%</b> et permettant le lancement d’une <b>API de référence produit unifiée</b>.</li>",
+        "</ul>"
       ],
       "stack": [
         "Azure",
+        "FHIR",
+        "IoT",
         "Kubernetes",
+        "Python",
         "Docker",
         "Vue",
         "Loopback",
-        "Python",
-        "Spring Boot",
-        "FHIR"
+        "Spring Boot"
       ]
     },
     {
@@ -63,8 +118,13 @@
       "image_link": "ciril_group_logo",
       "image_alt": "Ciril Group logo",
       "content": [
-        "Au cours de mon stage chez Ciril Group j'ai pu <b>développer</b> une application utilisant Scrapy en Python. Cette application était conçue pour récupérer automatiquement les adresses de différents points de vente sur Internet (grande surface, restaurants...). Elle disposait d'une liste prédéfinie de chaînes de distribution et naviguait sur le site web de chaque chaîne pour extraire toutes les adresses des magasins. Ensuite, les adresses étaient <b>traitées</b>, <b>nettoyées</b> et <b>stockées</b> pour une utilisation et une cartographie ultérieures. Cette expérience a renforcé ma maîtrise du <b>web scraping</b> et du traitement des données, ainsi que ma capacité à créer des solutions pratiques pour les <b>besoins commerciaux réels</b>.",
-        "Cette expérience fut ma première expérience professionnelle et m'a permis de renforcer ma maîtrise du <b>web scraping</b> et du traitement des données, ainsi que ma capacité à créer des solutions pratiques pour les <b>besoins commerciaux réels</b>."
+        "<b>Première expérience professionnelle</b> avec le développement d’une application de web scraping <b>prête pour la production</b> dédiée à la <b>collecte et la cartographie</b> de données pour la grande distribution.",
+        "</br><b class='text-primary'>1 - Conception d’une application de Web Scraping</b>",
+        "<ul class='list-disc list-outside ml-5'>",
+        "<li><b>Conçu et développé</b> une solution d’automatisation Python/Scrapy pour <b>collecter à grande échelle</b> les adresses de points de vente à l’échelle nationale, rendant possible un projet auparavant <b>impossible à réaliser manuellement</b>.</li>", 
+        "<li>L’application parcourt <b>automatiquement</b> les sites de <b>25+</b> enseignes (supermarchés, restaurants) pour <b>extraire</b>, <b>nettoyer</b> et <b>normaliser</b> les données géographiques.</li>",
+        "<li class=impact><b>Impact</b> : collecte de <b>30 000+</b> adresses avec <b>95%</b> de précision en <b>quelques jours vs. plusieurs mois en traitement manuel</b>, permettant le déploiement d’une nouvelle solution de géolocalisation pour les besoins métier de l’entreprise.</li>",
+        "</ul>"
       ],
       "stack": [
         "Python",

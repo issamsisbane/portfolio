@@ -5,13 +5,38 @@
     "image_link": "polytech_lyon_logo",
     "image_alt": "Polytech Lyon logo",
     "content": [
-      "Au cours de mon séjour à Polytech Lyon, j'ai été exposé à un programme diversifié et rigoureux couvrant un large éventail de sujets, chacun contribuant à ma compréhension approfondie de l'informatique et de l'ingénierie.",
-      "Dans le domaine de la <b>Data Science</b>, j'ai exploré des sujets avancés tels que le Big Data, avec un accent particulier sur les techniques d'apprentissage automatique. Grâce à des projets pratiques et à des études théoriques, j'ai acquis des compétences dans l'analyse de grands ensembles de données et dans l'extraction d'informations significatives pour éclairer les processus décisionnels.",
-      "J'ai suivi des cours sur les <b>systèmes d'information</b>, qui m'ont fourni de précieuses connaissances sur la conception et la gestion de systèmes d'information complexes dans des environnements urbains. Cela impliquait de comprendre l'intégration de différentes technologies et sources de données pour soutenir les initiatives de planification et de développement urbains.",
-      "Dans le domaine de la <b>gestion de projet</b>, j'ai acquis des compétences et des techniques essentielles pour planifier, exécuter et surveiller efficacement des projets de la conception à l'achèvement. Cela comprenait des aspects tels que la planification de projet, la gestion des risques et la communication avec les parties prenantes.",
-      "Des cours d'<b>algorithmique</b>, de <b>théorie des graphes</b> et d'<b>optimisation discrète</b> m'ont fourni une boîte à outils diversifiée de <b>techniques de résolution de problèmes</b>. De la création d'algorithmes efficaces à la modélisation et à la résolution de problèmes d'optimisation complexes, ces cours ont renforcé mes compétences analytiques et de réflexion critique. J'ai également reçu une formation spécialisée sur les techniques d'optimisation linéaire, me permettant de résoudre des problèmes complexes en trouvant de bonnes solutions sans nécessairement trouver la solution optimale, en utilisant des heuristiques.",
-      "Tout au long de mes études, j'ai participé activement à des <b>projets de groupe</b>, où j'ai eu l'occasion d'appliquer mes connaissances et mes compétences à des scénarios réels. Ces projets portaient souvent sur des technologies émergentes telles que le <b>développement mobile et web</b>, me permettant d'acquérir une expérience pratique dans la conception et la mise en œuvre de solutions logicielles pour répondre à des besoins et des défis spécifiques."
-    ]
+      "Au cours de mon séjour à <b>Polytech Lyon</b>, j'ai été exposé à un programme <b>diversifié</b> et <b>rigoureux</b> couvrant un large éventail de sujets, chacun contribuant à ma compréhension approfondie de l'<b>informatique</b> et de l'<b>ingénierie</b>.",
+
+      "</br><b class='text-primary'>Data Science</b>",
+      "J'ai exploré des sujets avancés tels que le <b>Big Data</b>, avec un accent particulier sur les <b>techniques d'apprentissage automatique</b>. Grâce à des projets pratiques et à des <b>études théoriques</b>, j'ai acquis des compétences dans l'analyse de grands ensembles de données et dans l'extraction d'informations significatives pour éclairer les <b>processus décisionnels</b>.",
+
+      "</br><b class='text-primary'>Systèmes d'information</b>",
+      "J'ai suivi des cours qui m'ont fourni de précieuses connaissances sur la conception et la gestion de <b>systèmes d'information complexes</b> dans des environnements urbains. Cela impliquait de comprendre l'<b>intégration</b> de différentes <b>technologies</b> et <b>sources de données</b> pour soutenir les initiatives de <b>planification</b> et de <b>développement urbains</b>.",
+
+      "</br><b class='text-primary'>Gestion de projet</b>",
+      "J'ai acquis des compétences essentielles pour <b>planifier</b>, <b>exécuter</b> et <b>surveiller</b> efficacement des projets de la conception à l'achèvement. Cela comprenait la <b>planification de projet</b>, la <b>gestion des risques</b> et la <b>communication avec les parties prenantes</b>.",
+
+      "</br><b class='text-primary'>Algorithmique & Optimisation</b>",
+      "Des cours d'algorithmique, de <b>théorie des graphes</b> et d'<b>optimisation discrète</b> m'ont fourni une boîte à outils diversifiée de <b>techniques de résolution de problèmes</b>. De la création d'algorithmes efficaces à la <b>modélisation</b> et à la résolution de problèmes complexes, ces cours ont renforcé mes <b>compétences analytiques</b> et de <b>réflexion critique</b>. J'ai également reçu une formation spécialisée sur les <b>techniques d'optimisation linéaire</b>, me permettant de résoudre des problèmes complexes en trouvant de bonnes solutions sans nécessairement atteindre la solution optimale, en utilisant des <b>heuristiques</b>.",
+
+      "</br><b class='text-primary'>IoT</b>",
+      "J'ai programmé des <b>cartes ESP</b>, utilisé des <b>capteurs</b> et des <b>moteurs</b>, découvrant ainsi l'univers de l'Internet des Objets et ses applications concrètes.",
+
+      "</br><b class='text-primary'>Programmation Web & Frameworks</b>",
+      "J'ai approfondi mes compétences en <b>programmation web</b> et découvert des <b>frameworks modernes</b> tels que <b>Spring Boot</b> et <b>React</b>, me permettant de concevoir des <b>applications robustes</b> et <b>scalables</b>.",
+
+      "</br><b class='text-primary'>Intelligence Artificielle</b>",
+      "J'ai eu une introduction à l'<b>IA</b>, au <b>machine learning</b> et aux <b>réseaux de neurones</b>, développant une première compréhension des concepts fondamentaux de l'<b>apprentissage automatique</b>.",
+
+      "</br><b class='text-primary'>Marketing</b>",
+      "J'ai participé à la <b>création d'une campagne publicitaire</b>, ce qui m'a permis de relier mes <b>compétences techniques</b> à des enjeux de <b>communication</b> et de <b>stratégie</b>.",
+
+      "</br><b class='text-primary'>Soft Skills</b>",
+      "J'ai développé des compétences en <b>présentation</b> et en <b>rédaction</b>, essentielles pour <b>transmettre efficacement des idées</b> et <b>collaborer en équipe</b>.",
+
+      "</br><b class='text-primary'>Projets</b>",
+      "Tout au long de mes études, j'ai participé activement à des <b>projets de groupe</b>, où j'ai eu l'occasion d'appliquer mes connaissances et mes compétences à des <b>scénarios réels</b>. Ces projets portaient souvent sur des <b>technologies émergentes</b> telles que le <b>développement mobile</b> et <b>web</b>, me permettant d'acquérir une expérience pratique dans la conception et la mise en œuvre de solutions logicielles pour répondre à des <b>besoins spécifiques</b>."
+  ]
   },
   {
     "title": "Diplôme Universitaire Technologique (DUT) Informatique",
@@ -19,9 +44,28 @@
     "image_link": "iut_logo",
     "image_alt": "IUT Lyon 1 logo",
     "content": [
-      "J'ai démarré mon parcours académique dans le supérieur en informatique à Lyon 1, où j'ai suivi un programme intensif axé sur les fondamentaux de l'informatique.",
-      "Pendant mes études à l'IUT, j'ai acquis une solide compréhension des <b>concepts de base de programmation</b>, des <b>bases de données</b>, des <b>réseaux informatiques</b> et d'autres domaines clés de l'informatique, mais pas seulement. En effet, j'ai également suivi des cours sur la finance, le droit et la gestion de projet.",
-      "De plus, j'ai eu l'opportunité de participer à des projets pratiques qui m'ont permis d'appliquer mes connaissances théoriques à des situations <b>réelles</b>, renforçant ainsi mes <b>compétences techniques</b> et mon <b>expérience pratique</b>."
+      "Durant mon parcours à l'<b>IUT Informatique</b>, j’ai suivi un programme complet qui m’a permis d’acquérir une solide base en informatique et dans des disciplines connexes.", 
+
+      "</br><b class='text-primary'>Programmation & Développement</b>",
+      "J’ai travaillé avec les langages <b>C</b>, <b>Java</b> et <b>Python</b>, approfondi la <b>programmation orientée objet</b> et développé des compétences en <b>technologies web</b> telles que HTML, CSS et JavaScript. J’ai également pratiqué le <b>scripting Linux/Bash</b> pour l’administration système.",
+
+      "</br><b class='text-primary'>Algorithmie & Mathématiques</b>",
+      "Les cours d’<b>algorithmie et de mathématiques</b> m’ont initié à la <b>conception d’algorithmes</b>, à la <b>théorie des graphes</b> (dont l’algorithme de Dijkstra), aux <b>ensembles</b> et aux <b>statistiques</b>, renforçant ainsi mes capacités d’analyse et de résolution de problèmes.",
+
+      "</br><b class='text-primary'>Bases de données</b>",
+      "J’ai étudié le <b>SQL</b>, en travaillant sur des <b>requêtes complexes</b>, la <b>création de tables</b> et la <b>modélisation de schémas relationnels</b>, ce qui a consolidé mes compétences en gestion et structuration des données.",
+
+      "</br><b class='text-primary'>Réseaux & Systèmes</b>",
+      "J’ai découvert les bases du reséau notamment sur les <b>switches</b>, <b>routeurs</b> et les principaux <b>protocoles</b> tels que HTTP, DNS et ARP, tout en développant des compétences en <b>configuration et gestion des systèmes d’exploitation (Linux, Windows)</b>.", 
+
+      "</br><b class='text-primary'>Gestion & Organisation</b>",
+      "J’ai approfondi mes connaissances en <b>gestion de projet</b> avec les méthodologies <b>Agile</b> et <b>Waterfall</b>, étudié les bases de la <b>comptabilité</b> (compte de résultat) et exploré le <b>droit informatique</b> afin de comprendre les aspects légaux liés aux technologies.",
+
+      "</br><b class='text-primary'>Langues & Communication</b>",
+      "Les cours de <b>langues</b> m’ont permis de renforcer mon <b>anglais</b>, améliorant ainsi ma capacité à communiquer dans un contexte professionnel.",
+
+      "</br><b class='text-primary'>Projets</b>",
+      "Tout au long de ma formation, j’ai participé à de nombreux <b>projets pratiques</b>, appliquant mes connaissances théoriques à des <b>situations réelles</b>. Ces expériences ont consolidé à la fois mon expertise technique et mes compétences organisationnelles."
     ]
   }
 ]

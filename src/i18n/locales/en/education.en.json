@@ -5,13 +5,39 @@
       "image_link": "polytech_lyon_logo",
       "image_alt": "Polytech Lyon logo",
       "content": [
-        "During my tenure at <b>Polytech Lyon</b>, I was exposed to a diverse and rigorous curriculum covering a broad range of subjects, each contributing to my comprehensive understanding of computer science and engineering.",
-        "In the field of <b>data science</b>, I delved into advanced topics such as <b>Big Data</b>, with a particular emphasis on <b>machine learning techniques</b>. Through <b>hands-on projects</b> and theoretical study, I gained proficiency in <b>analyzing large datasets</b> and deriving meaningful insights to inform decision-making processes.",
-        "I had courses about <b>Information Systems</b> which provided me with valuable insights into the <b>design and management</b> of complex information systems in urban environments. This involved understanding the integration of various technologies and data sources to support urban planning and development initiatives.",
-        "In the realm of <b>project management</b>, I acquired <b>essential skills and techniques</b> for effectively <b>planning, executing, and monitoring projects</b> from conception to completion. This included aspects such as <b>project planning</b>, <b>risk management</b>, and <b>stakeholder communication</b>.",
-        "Courses in <b>Algorithmics</b>, <b>Graph Theory</b>, and <b>Discrete Optimization</b> equipped me with a <b>diverse toolkit of problem-solving techniques</b>. From developing efficient algorithms to <b>modeling and solving complex optimization problems</b>, these courses enhanced my analytical and critical thinking skills. Notably, I also received specialized training in linear optimization techniques, enabling me to solve complex problems by finding good solutions without necessarily finding the optimal solution, utilizing heuristics.",
-        "Throughout my studies, I actively engaged in <b>group projects</b>, where I had the opportunity to apply my knowledge and skills to <b>real-world scenarios</b>. These projects often focused on emerging technologies such as mobile and web development, allowing me to gain practical experience in <b>designing and implementing software solutions</b> to address specific needs and challenges."
-      ]
+        "During my time at <b>Polytech Lyon</b>, I was exposed to a <b>diverse</b> and <b>rigorous</b> curriculum covering a wide range of subjects, each contributing to my in-depth understanding of <b>computer science</b> and <b>engineering</b>.",
+        
+        "</br><b class='text-primary'>Data Science</b>",
+        "I explored advanced topics such as <b>Big Data</b>, with a particular focus on <b>machine learning techniques</b>. </br>Through <b>hands-on projects</b> and <b>theoretical studies</b>, I gained skills in <b>analyzing large datasets</b> and extracting <b>meaningful insights</b> to support <b>decision-making processes</b>.",
+        
+        "</br><b class='text-primary'>Information Systems</b>",
+        "I attended courses that provided valuable knowledge on the <b>design</b> and <b>management</b> of <b>complex information systems</b> in urban environments. </br>This involved understanding the <b>integration</b> of different <b>technologies</b> and <b>data sources</b> to support <b>urban planning</b> and <b>development initiatives</b>.",
+        
+        "</br><b class='text-primary'>Project Management</b>",
+        "I acquired <b>essential skills</b> to <b>plan</b>, <b>execute</b>, and <b>monitor</b> projects effectively from conception to completion. </br>This included <b>project planning</b>, <b>risk management</b>, and <b>stakeholder communication</b>.",
+        
+        "</br><b class='text-primary'>Algorithms & Optimization</b>",
+        "Courses in <b>algorithms</b>, <b>graph theory</b>, and <b>discrete optimization</b> provided me with a diverse toolkit of <b>problem-solving techniques</b>. </br>From <b>developing efficient algorithms</b> to <b>modeling</b> and solving <b>complex optimization problems</b>, these courses strengthened my <b>analytical</b> and <b>critical thinking skills</b>. </br>I also received specialized training in <b>linear optimization techniques</b>, enabling me to solve complex problems by finding <b>good solutions</b> without necessarily reaching the optimal one, using <b>heuristics</b>.",
+        
+        "</br><b class='text-primary'>IoT</b>",
+        "I programmed <b>ESP boards</b>, worked with <b>sensors</b> and <b>motors</b>, discovering the world of the <b>Internet of Things</b> and its <b>practical applications</b>.",
+        
+        "</br><b class='text-primary'>Web Programming & Frameworks</b>",
+        "I enhanced my skills in <b>web programming</b> and explored modern <b>frameworks</b> such as <b>Spring Boot</b> and <b>React</b>, allowing me to design <b>robust</b> and <b>scalable applications</b>.",
+        
+        "</br><b class='text-primary'>Artificial Intelligence</b>",
+        "I was introduced to <b>AI</b>, <b>machine learning</b>, and <b>neural networks</b>, gaining an initial understanding of the <b>fundamental concepts</b> of <b>automatic learning</b>.",
+        
+        "</br><b class='text-primary'>Marketing</b>",
+        "I contributed to the <b>creation of an advertising campaign</b>, which allowed me to connect my <b>technical skills</b> with <b>communication</b> and <b>strategic challenges</b>.",
+        
+        "</br><b class='text-primary'>Soft Skills</b>",
+        "I developed abilities in <b>presentation</b> and <b>writing</b>, essential for <b>effectively conveying ideas</b> and <b>collaborating within a team</b>.",
+        
+        "</br><b class='text-primary'>Projects</b>",
+        "Throughout my studies, I actively participated in <b>group projects</b>, where I had the opportunity to <b>apply my knowledge</b> and <b>skills</b> to <b>real-world scenarios</b>. </br>These projects often focused on <b>emerging technologies</b> such as <b>mobile</b> and <b>web development</b>, allowing me to gain <b>practical experience</b> in <b>designing</b> and <b>implementing software solutions</b> to meet <b>specific needs</b>."
+    ]
+
     },
     {
       "title": "Technical University Degree (DUT) in Computer Science",
@@ -19,10 +45,29 @@
       "image_link": "iut_logo",
       "image_alt": "IUT Lyon 1 logo",
       "content": [
-        "I began my academic journey in computer science at <b>Lyon 1</b>, where I pursued an <b>intensive program</b> focused on the <b>fundamentals of computer science</b>.",
-        "During my studies, I gained a solid understanding of programming concepts, databases, computer networks, and other key areas of computer science, but not only. Indeed, I also had courses about finances, law and project management.",
-        "Moreover, I had the opportunity to participate in practical projects that allowed me to apply my <b>theoretical knowledge</b> to real-world situations, thereby strengthening my <b>technical skills</b> and <b>practical experience</b>."
-      ]
+        "During my studies at <b>IUT Informatique</b>, I followed a comprehensive curriculum that provided me with a strong foundation in computer science and related disciplines.",
+        
+        "</br><b>Programming & Development</b>",
+        "I gained experience with <b>C</b>, <b>Java</b>, and <b>Python</b>, explored <b>Object-Oriented Programming</b>, and developed skills in <b>Web technologies</b> such as HTML, CSS, and JavaScript. I also practiced <b>Linux/Bash scripting</b> for system administration.",
+        
+        "</br><b>Algorithms & Mathematics</b>",
+        "Courses in <b>Algorithms & Mathematics</b> introduced me to <b>algorithm design</b>, <b>graph theory</b> (including Dijkstra’s algorithm), <b>sets</b>, and <b>statistics</b>, which enhanced my analytical and problem-solving abilities.",
+        
+        "</br><b>Databases</b>",
+        "In the area of <b>Databases</b>, I studied <b>SQL</b>, focusing on complex queries, table creation, and relational schema design, which strengthened my capacity to manage and structure data effectively.",
+        
+        "</br><b>Network & Systems</b>",
+        "I learned about <b>switches</b>, <b>routers</b>, and key <b>protocols</b> such as HTTP, DNS, and ARP, while also acquiring skills in operating system configuration and management (Linux & Windows).",
+        
+        "</br><b>Management & Organisation</b>",
+        "I developed knowledge in <b>project management</b> methodologies such as Agile and Waterfall, studied <b>accounting fundamentals</b> including income statements, and explored <b>IT Law</b> to understand the legal aspects of technology.",
+
+        "</br><b>Languages & Communication</b>",
+        "Courses in <b>Languages & Communication</b> allowed me to strengthen my <b>English skills</b>, improving my ability to communicate in professional contexts.",
+
+        "</br><b>Projects</b>",
+        "Throughout my studies, I actively participated in <b>hands-on projects</b>, applying theoretical knowledge to <b>real-world scenarios</b>. These experiences reinforced both my technical expertise and my organizational skills."
+    ]
     }
   ]
   
