@@ -5,7 +5,7 @@
       "image_link": "atos_logo",
       "image_alt": "Atos logo",
       "content": [
-        "Membre d’une équipe de <b>Platform Engineering</b> en charge de <b>l’architecture</b>, du <b>déploiement</b> et de la <b>migration</b> d’une <b>plateforme DevOps à l’échelle entreprise</b>.",
+        "Membre d’une équipe de <b>Platform Engineering</b> en charge de <b>l’architecture</b>, du <b>déploiement</b> et de la <b>migration</b> d’une <b>plateforme DevOps à l’échelle d'une grande organisation</b>.",
         "</br><b class='text-primary'>1 - Migration & Modernisation OpenShift</b></br>",
         "</br><ul class='list-disc list-outside ml-5'>",
         "<li>Contribution à la <b>transition technique</b> d’OpenShift Container Platform 3 vers 4 avec une <b>refonte complète des pipelines CI/CD</b> (Jenkins → GitLab CI/CD).</li>",
@@ -52,7 +52,7 @@
       "image_link": "thuasne_logo",
       "image_alt": "Thuasne logo",
       "content": [
-        "Mission internationale au sein d’une filiale américaine <b>récemment</b> acquise pour <b>l’évaluation technologique</b>, la <b>validation de POC</b> et la <b>formation Azure</b>.",
+        "Mission internationale au sein d’une filiale américaine <b>récemment</b> acquise par Thuasne pour <b>l’évaluation technologique</b>, la <b>validation de POC</b> et la <b>formation Azure</b>.",
         "</br><b class='text-primary'>1 - Digitalisation de la ligne de production</b>",
         "</br><ul class='list-disc list-outside ml-5'>",
         "<li><b>Conçu une solution cloud</b> pour éliminer les documents papier sur les lignes de production malgré la contrainte technique de <b>documents variables quotidiennement</b>.</li>",
