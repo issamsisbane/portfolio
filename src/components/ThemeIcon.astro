@@ -24,7 +24,6 @@
     localStorage.setItem('theme', theme);
     document.documentElement.setAttribute('data-theme', theme);
     updateIcons(theme);
-    location.reload();
   }
 
   // Fonction pour mettre à jour les icônes
@@ -58,5 +57,6 @@
   document.addEventListener('astro:after-swap', () => {
     const currentTheme = getTheme();
     setTheme(currentTheme);
+    location.reload();
   });
 </script>
