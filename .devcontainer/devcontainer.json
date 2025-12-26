@@ -10,6 +10,13 @@
       "version": "20",
       "pnpm": "true"
     }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "astro-build.astro-vscode"
+      ]
+    }
   }
 }
   
