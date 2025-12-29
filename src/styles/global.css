@@ -53,3 +53,7 @@
 .impact {
     color: 	#39b62b
 }
+
+b, strong {
+    font-weight: 700;  /* Au lieu de 700 (bold par défaut) */
+}
