@@ -10,7 +10,7 @@
         "<ul class='list-disc list-outside ml-5'>",
         "<li>Contributed to the <b>technical transition</b> from OpenShift Container Platform 3 to 4 with <b>complete CI/CD pipeline overhaul</b> (Jenkins → GitLab CI/CD).</li>",
         "<li><b>Led the migration from Kustomize to standardized Helm Charts</b> integrating organizational conventions and platform tools (PostgreSQL via CloudNativePG, Vault secrets, S3 backups, HPA autoscaling).</li>", 
-        "<li>Implemented <b>rootless containers</b> and Velero <b>policies</b> for enhanced <b>security</b>.</li>",
+        "<li>Implemented <b>rootless containers</b> and Kyverno <b>policies</b> for enhanced <b>security</b>.</li>",
         "</ul>",
         "<div class='bg-primary/10 border-l-4 border-primary p-3 mt-2 py-3 rounded-r'><b class='text-primary'>✨ Impact:</b> migration of <b>70+ applications with zero service interruption</b>, <b>70% reduction in deployment time</b>, <b>20% decrease in attack surface</b>, and <b>100% adoption</b> of standardized Helm charts by all teams.</div>",
         "</br><div class='divider divider-start text-sm opacity-60 py-10  sm:py-2'>PLATFORM ENGINEERING & DEVELOPER EXPERIENCE</div>",

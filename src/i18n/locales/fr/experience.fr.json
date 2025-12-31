@@ -1,7 +1,7 @@
 [
     {
       "title": "Ingénieur Cloud & DevOps",
-      "subtitle": "Depuis Octobre 224 à aujourd'hui, Sophia Antipolis, France",
+      "subtitle": "Depuis Octobre 2024 à aujourd'hui, Sophia Antipolis, France",
       "image_link": "atos_logo",
       "image_alt": "Atos logo",
       "content": [
@@ -10,7 +10,7 @@
         "<ul class='list-disc list-outside ml-5'>",
         "<li>Contribution à la <b>transition technique</b> d'OpenShift Container Platform 3 vers 4 avec une <b>refonte complète des pipelines CI/CD</b> (Jenkins → GitLab CI/CD).</li>",
         "<li><b>Piloté la migration de Kustomize vers des Helm Charts standardisés</b> intégrant les conventions organisationnelles et les outils de la plateforme (PostgreSQL via CloudNativePG, secrets Vault, sauvegardes S3, autoscaling HPA).</li>",
-        "<li>Mise en place de <b>conteneurs rootless</b> et de <b>politiques</b> Velero pour renforcer la <b>sécurité</b>.</li>",
+        "<li>Mise en place de <b>conteneurs rootless</b> et de <b>politiques</b> Kyverno pour renforcer la <b>sécurité</b>.</li>",
         "</ul>",
         "<div class='bg-primary/10 border-l-4 border-primary p-3 mt-2 rounded-r'><b class='text-primary'>✨ Impact :</b> migration de <b>70+ applications sans interruption de service</b>, <b>70% de réduction du temps de déploiement</b>, <b>20% de diminution de la surface d'attaque</b> et <b>100% d'adoption</b> des Helm Charts standardisés par toutes les équipes.</div>",
         "</br><div class='divider divider-start text-sm opacity-60 py-10  sm:py-2'>PLATFORM ENGINEERING & EXPÉRIENCE DÉVELOPPEUR</div>",
