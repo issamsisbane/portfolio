@@ -4,6 +4,7 @@
     "name": "Je suis Issam SISBANE",
     "role": "Ingénieur Cloud & DevOps",
     "intro": "J’aide les équipes à livrer plus <b>rapidement</b>, plus <b>sûrement</b> et plus <b>efficacement</b> en tirant parti de <b>Kubernetes</b> et du <b>DevSecOps</b> pour <b>automatiser</b> les déploiements, <b>optimiser</b> les ressources et garantir une <b>scalabilité</b> et une <b>disponibilité</b> continues.",
+    "quoteLabel": "Citation du Jour",
     "quote": "Le mieux que vous puissiez faire est de résoudre les problèmes d’aujourd’hui grâce à ce que vous avez appris hier. Continuez à apprendre et restez humble.",
     "author": "(Traduction) — Kelsey Hightower",
     "contactButton": "Me contacter",

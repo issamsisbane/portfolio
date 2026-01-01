@@ -40,7 +40,7 @@ export async function getStaticPaths() {
     
 <div class="my-8 space-y-4">
   <div class="divider divider-start">
-    <span class="text-xs font-bold text-center uppercase tracking-wider opacity-60">Quote of the day</span>
+    <span class="text-xs font-bold text-center uppercase tracking-wider opacity-60" set:html={labels.quoteLabel}></span>
   </div>
   <div class="flex items-start gap-4">
     <svg class="w-8 h-8 text-primary flex-shrink-0 fill-[#99cbff] opacity-60" fill="currentColor" viewBox="0 0 24 24">
