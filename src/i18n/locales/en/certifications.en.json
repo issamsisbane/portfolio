@@ -3,6 +3,10 @@
       "title": "Cloud",
       "items": [
         {
+          "label": "<u><b>CKS</b></u> Certified Kubernetes Security Specialist - 2026",
+          "link": "https://www.credly.com/badges/313586a1-4d6b-4370-806a-c16ae2d5a650/public_url"
+        },
+        {
           "label": "<u><b>CKA</b></u> Certified Kubernetes Administrator - 2025",
           "link": "https://www.credly.com/badges/0cbcbdda-468f-40c1-91a7-465114ff60cb/public_url"
         },
